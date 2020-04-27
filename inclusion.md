@@ -11,6 +11,11 @@ As we continue to build out HelmCenetr, we want her help improving how new chart
 # Notes for Making a Pull Request
 
 The specific steps to add new charts are:
+Legal
+Namespace
+Include your email contanct info
+
+## Reserving a Namespace
 
 Fork the conan-center-index git repository, and then clone it.
 Create a new folder with the Conan package recipe (conanfile.py)
