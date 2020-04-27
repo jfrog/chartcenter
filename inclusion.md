@@ -1,44 +1,34 @@
 # Adding New Charts to HelmCenter
 
-The first step in adding packages to HelmCenter is making a pull request to your chart location. 
+The first step in adding a repository to HelmCenter is to create a new pull request with the following two pieces of information:
+
+In the file at XXX.yaml add your repository with a short name and the base URL to the repository.
+In the file XXX.yaml, alongside this file, add contact information for the repository. This contact information is necessary when there is a need for the Helm project to contact those who manage a repository (e.g., it goes offline). 
+
+The pull request will be reviewed by the HelmCenter team and if it follows our guidelines, will be available on HelmCenters soon after.
 
 For issues, email us at info@helmcenter.io with the subject [Add Charts] or add a comment to this GitHub issue here.
 
-# We want your feedback
+## Guidlines
 
-As we continue to build out HelmCenetr, we want her help improving how new charts are added. You can provide your feedback here.
+Repositories listed in the distributed search should follow Helm chart best practices. In addition to these practices we expect:
 
-# Notes for Making a Pull Request
+Every chart to have a maintainer listed along with valid contact information for each maintainer. The contact information could be in the form of an email address or link to a contact form
+Charts to pass Helm lint, be installable and upgradable in all community supported versions of Kubernetes, and to use semantic versioning to share intent in released changes. To help with this we suggest leveraging the Chart Testing project.
+Have a NOTES.txt template with useful information which Helm will display after installation
+Chart versions to be immutable
+Legal Guidelines
+
+### Reserving a Namespace
+
+### Notes for Making a Pull Request
 
 The specific steps to add new charts are:
 Legal
 Namespace
 Include your email contanct info
 
-## Reserving a Namespace
+# We want your feedback
 
-Fork the conan-center-index git repository, and then clone it.
-Create a new folder with the Conan package recipe (conanfile.py)
-Push to GitHub, and submit a pull request.
-Our automated build service will build 100+ different configurations, and provide messages that indicate if there were any issues found during the pull request on GitHub.
-When the pull request is reviewed and merged, those packages are published to center.conan.io.
+As we continue to build out HelmCenetr, we want her help improving how new charts are added. You can provide your feedback here.
 
-More Information about Recipes
-The conan-center-index (this repository) contains recipes for the conan-center repository.
-
-To contribute with a Conan recipe into the conan-center repository you can submit a Pull Request to the master branch of this repository. The connected continuous integration system will generate binary packages automatically for the most common platforms and compilers. See the Supported Platforms and Configurations page to know the generated configurations. For a C++ library, the system is currently generating more than 100 binary packages.
-
-⚠️ Note: This CI service is not a testing service, it is a binary building service for package releases. Unit tests shouldn't be built nor ran in recipes by default. Before submitting a PR it is mandatory to run at least a local package creation.
-
-The CI system will also report with messages in the PR any error in the process, even linking to the logs to see more details and debug.
-
-When pull requests are merged, the CI generated package binaries will be uploaded to ConanCenter. These packages won't contain the @user/channel part. You will be able to install them specifying only library_name/version as a requirement, omitting the @user/channel part. (Conan >= 1.21).
-
-Previously existing packages in ConanCenter, with the full reference including @user/channel will still be available, but the previous process of “inclusion request” for getting them into Conan-center is now deprecated, and new contributions should follow this guide. Those packages will be gradually contributed to this repo to generate new binaries without the @user/channel.
-
-How to submit a Pull Request
-Before start
-Make sure you are using the latest Conan client version, the recipes might evolve introducing features of the newer Conan releases.
-
-The recipe folder
-Create a new subfolder in the recipes folder with the name of the package in lowercase.
