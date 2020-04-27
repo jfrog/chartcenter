@@ -9,21 +9,22 @@ The pull request will be reviewed by the HelmCenter team and if it follows our g
 
 For issues, email us at info@helmcenter.io with the subject [Add Charts] or add a comment to this GitHub issue here.
 
-## Guidlines
+## Guidelines
 
-Repositories listed in the distributed search should follow Helm chart best practices. In addition to these practices we expect:
+Repositories added to HelmCenter should always follow Helm chart best practices. In addition to these practices we expect:
 
-Every chart to have a maintainer listed along with valid contact information for each maintainer. The contact information could be in the form of an email address or link to a contact form
-Charts to pass Helm lint, be installable and upgradable in all community supported versions of Kubernetes, and to use semantic versioning to share intent in released changes. To help with this we suggest leveraging the Chart Testing project.
-Have a NOTES.txt template with useful information which Helm will display after installation
-Chart versions to be immutable
-Legal Guidelines
+* Every chart to have a maintainer listed along with valid contact information for each maintainer. 
+* The contact information could be in the form of an email address or...
+* Charts to pass Helm lint, be installable and upgradable in all community supported versions of Kubernetes, and to use semantic versioning to share intent in released changes. 
+* Have a NOTES.txt template with useful information which Helm will display after installation
+* Chart versions to be immutable
+
+### Legal
 
 ### Reserving a Namespace
 
 ### Notes for Making a Pull Request
 
-The specific steps to add new charts are:
 Legal
 Namespace
 Include your email contanct info
