@@ -2,7 +2,8 @@
 
 The first step in adding a repository to HelmCenter is to create a new pull request with the following two pieces of information:
 
-In the file at XXX.yaml add your repository with a short name and the base URL to the repository.
+In the file at XXX.yaml add your repository with a short name and the base URL to the repository. We will verify that you are the author of the project by checking the domain [SEE MORE INFO]. 
+
 In the file XXX.yaml, alongside this file, add contact information for the repository. This contact information is necessary when there is a need for the Helm project to contact those who manage a repository (e.g., it goes offline). 
 
 The pull request will be reviewed by the HelmCenter team and if it follows our guidelines, will be available on HelmCenters soon after.
@@ -19,9 +20,12 @@ Repositories added to HelmCenter should always follow Helm chart best practices.
 * Have a NOTES.txt template with useful information which Helm will display after installation
 * Chart versions to be immutable
 
+### Reserving a Namespace
+Your domain will need to be verified. The steps for verification are:
+
 ### Legal
 
-### Reserving a Namespace
+### Versioning
 
 ### Notes for Making a Pull Request
 
