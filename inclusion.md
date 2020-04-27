@@ -35,5 +35,5 @@ Include your email contanct info
 
 # We want your feedback
 
-As we continue to build out HelmCenetr, we want her help improving how new charts are added. You can provide your feedback here.
+As we continue to build out the HelmCenter inclusion process, we want her help improving how new charts are added. You can provide your feedback here.
 
