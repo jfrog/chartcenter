@@ -8,7 +8,7 @@ url: https://jfrog.github.io
 
 maintainers:
 
-name: myName
+name: yourName
 
 email: info@jfrog.com
 
