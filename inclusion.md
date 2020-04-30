@@ -33,6 +33,8 @@ Repositories added to HelmCenter should always follow Helm chart best practices.
 ### Reserving a Namespace
 Your domain will need to be verified. The steps for verification are:
 
+Should we need further verification, we will contact you by email with the subject line [HelmCenter Verification Needed]
+
 ### Legal
 
 ### Other Notes for Making a Pull Request
