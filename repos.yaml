@@ -1,3 +1,11 @@
 # This file contains the contact information for repositories exposed through
 # the HelmCenter. Each repository has a url, the base path to its location, and
 # maintainer information.
+#
+# repositories:
+#  - name: example
+#    url: https://example.com
+#    maintainers:
+#      - name: foo
+#        email: foo@example.com
+#
