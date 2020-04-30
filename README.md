@@ -40,6 +40,6 @@ HelmCenter is a collaborative community made up of developers like you! Before s
 
 # Legal and Links
 
-The Terms of Service for JFrog GoCenter
-The JFrog GoCenter Privacy Policy
+The Terms of Service for JFrog HelmCenter
+The JFrog HelmCenter Privacy Policy
 
