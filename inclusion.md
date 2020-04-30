@@ -41,5 +41,5 @@ Should we need further verification, we will contact you by email with the subje
 
 # We want your feedback
 
-As we continue to build out the HelmCenter inclusion process, we want her help improving how new charts are added. You can provide your feedback here.
+As we continue to build out the HelmCenter inclusion process, we want her help improving how new charts are added. You can provide your feedback on the process by commenting on this open issue here.
 
