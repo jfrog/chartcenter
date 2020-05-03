@@ -1,6 +1,6 @@
 # Adding New Charts to HelmCenter
 
-The first step in adding a repository to HelmCenter is to access the `repos.yaml` file and create a new pull request with the following pieces of information added to the file:
+The first step in adding a repository to HelmCenter is to access the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new pull request with the following pieces of information added to the file:
 
 ```name: jfrog```
 
