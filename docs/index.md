@@ -1,3 +1,8 @@
+[__Inclusion__](PageA.md)
+[__FAQ__](PageB.md)
+[__Roadmap__](PageA.md)
+[__JCR__](PageB.md)
+
 # JFrog HelmCenter
 ![JFrog HelmCenter Logo](https://raw.githubusercontent.com/jfrog/helmcenter/master/helmcenter.png)
 
