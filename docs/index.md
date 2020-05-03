@@ -4,22 +4,22 @@
 [__Public Roadmap__](roadmap.md) ::: 
 [__JFrog Container Registry__](jforg-cr.md)
 
-# JFrog HelmCenter
+# Welcome
 ![JFrog HelmCenter Logo](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
 
-Welcome to JFrog’s HelmCenter! HelmCenter is a free central repository where you can install and deploy any helm chart while being part of a community of Helm developers! 
+HelmCenter is a free central repository where you can search for and deploy any helm chart while being part of a community of Helm developers! 
 
-Visit our official website: [helmcenter.io](https://helmcenter.io)
+Visit our official website: [helmcenter.io](https://helmcenter.io).
  
-If you’re looking for HelmCenter documentation, find it here [insert link]. We have instructions on how Helm charts work, how to find new charts on HelmCenter, and how you can add your own. We also have a section for a blog about HelmCenter and a public roadmap with open issues that we invite you get involved in.
+If you’re looking for HelmCenter documentation, you're in the right place! We have instructions on how Helm charts work, how to find new charts on HelmCenter, and how you can add your own using a [pull request](#). We also have a [public roadmap](#) with open issues that we invite you get involved with.
 
 # Troubleshooting
 
-Over time, we’ve compiled a list of some of the most common troubleshooting issues that arise when using HelmCenter. Our troubleshooting tips can be found in our HelmCenter FAQ. [Link]
+Over time, we’ve compiled a list of some of the most common troubleshooting issues that arise when using HelmCenter. Our troubleshooting tips can be found in our HelmCenter [FAQ](#).
 
 # Release Notes
 
-HelmCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our release.md file. Stay up to date by checking out our latest release notes. [Link]
+HelmCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our [release.md](#) file. Stay up to date by checking out our latest release notes.
 
 # Contact Us
 
@@ -36,8 +36,7 @@ If you are submitting a bug report, please provide detailed steps to reproduce y
 If your issue already exists, select that issue and add any additional information that might help us resolve it or click the reactions button and thumbs up (+1) if you want to indicate that you are also experiencing this issue, but have no new information to add.
 
 * If your issue is not appropriate for a public discussion, contact us via e-mail at helmcenter@jfrog.com.
-* If you have issues integrating Artifactory with JFrog HelmCenter and you have support, file a support ticket.
-* For issues relating to the JFrog CLI, file a GitHub issue on the jfrog-cli-go GitHub repository
+* If you have issues integrating Artifactory with JFrog HelmCenter and you have support, file a [support ticket](#).
 
 # Contributing to HelmCenter
 
@@ -51,6 +50,6 @@ Thanks for Your Contribution to the Community! :-)
 
 # Legal and Links
 
-The Terms of Service for JFrog HelmCenter
-The JFrog HelmCenter Privacy Policy
+The [Terms of Service](#) for JFrog HelmCenter
+The JFrog HelmCenter [Privacy Policy](#)
 
