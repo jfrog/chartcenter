@@ -1,5 +1,9 @@
-[__PageA__](PageA.md)
-[__PageB__](PageB.md)
+[__Welcome__](index.md)
+[__About__](about.md)
+[__FAQ__](faq.md)
+[__Inclusion Process__](inclusion.md)
+[__Public Roadmap__](roadmap.md)
+[__JFrog Container Registry__](jforg-cr.md)
 
 # JFrog HelmCenter
 ![JFrog HelmCenter Logo](https://raw.githubusercontent.com/jfrog/helmcenter/master/helmcenter.png)
