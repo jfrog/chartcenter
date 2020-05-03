@@ -1,4 +1,5 @@
-# Welcome
+# JFrog HelmCenter
+![JFrog HelmCenter Logo](https://raw.githubusercontent.com/jfrog/helmcenter/master/helmcenter.png)
 
 Welcome to JFrog’s HelmCenter where you can install and deploy any helm repository while being part of a community of Helm developers! Visit our official webpage: helmcenter.io.” [need to insert the link for this]
  
