@@ -5,7 +5,7 @@
 [__JFrog Container Registry__](jforg-cr.md)
 
 # JFrog HelmCenter
-![JFrog HelmCenter Logo](https://raw.githubusercontent.com/jfrog/helmcenter/master/helmcenter.png)
+![JFrog HelmCenter Logo](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
 
 Welcome to JFrog’s HelmCenter! HelmCenter is a free central repository where you can install and deploy any helm chart while being part of a community of Helm developers! 
 
