@@ -1,5 +1,4 @@
 [__Welcome__](index.md)
-[__About__](about.md)
 [__FAQ__](faq.md)
 [__Inclusion Process__](inclusion.md)
 [__Public Roadmap__](roadmap.md)
