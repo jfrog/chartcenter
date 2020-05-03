@@ -1,7 +1,7 @@
-[__Inclusion__](PageA.md)
-[__FAQ__](PageB.md)
-[__Roadmap__](PageA.md)
-[__JCR__](PageB.md)
+[__Inclusion__](index.md)
+[__FAQ__](index.md)
+[__Roadmap__](index.md)
+[__JCR__](index.md)
 
 # JFrog HelmCenter
 ![JFrog HelmCenter Logo](https://raw.githubusercontent.com/jfrog/helmcenter/master/helmcenter.png)
