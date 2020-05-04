@@ -1,6 +1,4 @@
-| [__Welcome__](index.md)     | [__FAQ__](faq.md)    | [__Inclusion Process__](inclusion.md) | [__Public Roadmap__](roadmap.md) | [__JFrog Container Registry__](jforg-cr.md) |
-| ------------- |:-------------:| -----:|:-------------:| -----:|
-
+[__Welcome__](index.md) | [__FAQ__](faq.md) | [__Inclusion Process__](inclusion.md) | [__Public Roadmap__](roadmap.md) | [__JFrog Container Registry__](jforg-cr.md) 
 ------
 
 # Welcome
