@@ -48,7 +48,7 @@ We are reviewing the process to provide organizations official namespaces. The c
 
 In your pull request, please make sure to provide the best way to contact you should we need to verify the ownership of namespace. The 'name' keyword that you provide in the pull request to the repos.yaml file will become the namespace of your repository. The best way for us to verify ownership of the namespace is if it matches the URL and email information also provided. Should HelmCenter feel the need to review your namespace ownership details, your contact information is necessary. There may be a need for our team to contact those who manage a repository and verify authorship if DNS isn't sufficient. HelmCenter maintainers reserve the right to manually check if you are the helm repo maintainer. If not, the PR will not be merged.
 
-We will verify your namespace and checking that you are the author of the project by checking the domain records. For guidance on domain verification [provide info or anchor]. 
+We will verify your namespace and check that you are the author of the project by reviewing the domain records. For guidance on domain verification [provide info or anchor].
 
 ### Legal and License Compliance
 
