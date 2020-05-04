@@ -31,6 +31,7 @@ Repositories added to HelmCenter should always follow Helm chart best practices.
 * Charts must pass Helm lint, be installable and upgradable in all community supported versions of Kubernetes, and use semantic versioning
 * Have a NOTES.txt template with useful information which Helm will display after installation
 * Chart versions should be immutable 
+* Your charts must have an appropriate license 
 
 ### Reserving a Namespace
 
@@ -48,7 +49,7 @@ In your pull request, please make sure to provide the best way to contact you sh
 
 We will verify your namespace and checking that you are the author of the project by checking the domain records. For guidance on domain verification [provide info or anchor]. 
 
-### Legal
+### Legal and License Compliance
 
 # We want your feedback
 
