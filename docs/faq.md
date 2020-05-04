@@ -1,3 +1,9 @@
+[__Welcome__](index.md) ------ 
+[__FAQ__](faq.md) ------ 
+[__Inclusion Process__](inclusion.md) ------ 
+[__Public Roadmap__](roadmap.md) ------ 
+[__JFrog Container Registry__](jforg-cr.md)
+
 # Frequently Asked Questions
 Do you have a question about HelmCenter? We have the answer!
 
