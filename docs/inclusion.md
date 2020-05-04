@@ -32,6 +32,7 @@ Repositories added to HelmCenter should always follow Helm chart best practices.
 * Have a NOTES.txt template with useful information which Helm will display after installation
 * Chart versions should be immutable 
 * Your charts must have an appropriate license 
+* We must be able to verify that you have write access to this repo
 
 ### Reserving a Namespace
 
