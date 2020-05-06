@@ -13,8 +13,8 @@ The first step in adding charts to HelmCenter include creating a repository foll
   type: helm
   url: https://jfrog.github.io
   maintainers:
-    name: yourName
-    email: info@jfrog.com
+    - name: yourName
+      email: info@jfrog.com
 ```
 
 The pull request will be reviewed by the HelmCenter team and if it follows our guidelines, will be available on HelmCenters soon after.
