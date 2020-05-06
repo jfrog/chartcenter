@@ -8,15 +8,14 @@
 
 The first step in adding charts to HelmCenter include creating a repository following the [guidelines](#) outlined below. Once you have understood the guidelines for naming your repository, the 2nd step is to access the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new [pull request](#) with the following pieces of information added to the file:
 
-```name: jfrog```
-
-```url: https://jfrog.github.io```
-
-```maintainers:```
-
-```name: yourName```
-
-```email: info@jfrog.com```
+```
+- name: jfrog
+  type: helm
+  url: https://jfrog.github.io
+  maintainers:
+    name: yourName
+    email: info@jfrog.com
+```
 
 The pull request will be reviewed by the HelmCenter team and if it follows our guidelines, will be available on HelmCenters soon after.
 
