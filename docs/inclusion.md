@@ -4,7 +4,7 @@
 [__Public Roadmap__](roadmap.md) ------ 
 [__JFrog Container Registry__](jforg-cr.md)
 
-# Adding New Charts to HelmCenter
+# Adding New Charts to ChartCenter
 
 The first step in adding charts to ChartCenter include creating a repository following the [guidelines](#) outlined below. Once you have understood the guidelines for naming your repository, the 2nd step is to access the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new [pull request](#) with the following pieces of information added to the file:
 
