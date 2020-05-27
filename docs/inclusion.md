@@ -6,7 +6,7 @@
 
 # Adding New Charts to HelmCenter
 
-The first step in adding charts to HelmCenter include creating a repository following the [guidelines](#) outlined below. Once you have understood the guidelines for naming your repository, the 2nd step is to access the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new [pull request](#) with the following pieces of information added to the file:
+The first step in adding charts to ChartCenter include creating a repository following the [guidelines](#) outlined below. Once you have understood the guidelines for naming your repository, the 2nd step is to access the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new [pull request](#) with the following pieces of information added to the file:
 
 ```
 - name: jfrog
@@ -17,13 +17,13 @@ The first step in adding charts to HelmCenter include creating a repository foll
       email: info@jfrog.com
 ```
 
-The pull request will be reviewed by the HelmCenter team and if it follows our guidelines, will be available on HelmCenters soon after.
+The pull request will be reviewed by the ChartCenter team and if it follows our guidelines, will be available on ChartCenter soon after.
 
-For issues, email us at info@helmcenter.io with the subject [Add Charts to HelmCenter] or add a comment to this GitHub issue here.
+For issues, email us at info@helmcenter.io with the subject [Add Charts to ChartCenter] or add a comment to this GitHub issue here.
 
 ## Guidelines
 
-Repositories added to HelmCenter should always follow Helm chart best practices. In addition to these practices we expect:
+Repositories added to CharttCenter should always follow Helm chart best practices. In addition to these practices we expect:
 
 * Every chart to have a maintainer listed along with valid contact information for each maintainer. 
 * The contact information should be in the form of an email address that shows ownership of the domain
