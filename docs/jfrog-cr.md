@@ -14,6 +14,6 @@ JFrog Container Registry is free for self-hosted installations. You can also hos
 
 To learn more about these features and create multiple Helm and Docker repositories for your work with HelmCenter, visit our [download page for JFrog Container Registry](https://jfrog.com/download-jfrog-container-registry/) today.
 
-You can also learn more about the container registry by reading the [documentation].(https://www.jfrog.com/confluence/display/JFROG/Get+Started%3A+JFrog+Container+Registry)
+You can also learn more about the container registry by reading the [documentation](https://www.jfrog.com/confluence/display/JFROG/Get+Started%3A+JFrog+Container+Registry).
 
 
