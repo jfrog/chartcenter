@@ -1,0 +1,22 @@
+## Schema version of this YAML file
+schemaVersion: v1
+
+## Overall mitigation summary
+summary: text
+
+## External URL if you'd like to link to an external page
+securityAdvisoryUrl: URL
+
+## If you want to point us to a file instead of filling out the CVE's here
+useMitigationExternalFile: boolean
+mitigationExternalFileUrl: URL
+
+## Mitigation notes for individual CVEs
+mitigations:   
+  cves: 
+## version type can be chart or app
+  versionsType:
+## Which chart versions this cve note belongs to
+  affectedVersions: mastermind SemVer constraint
+## Description / note
+  description: text
