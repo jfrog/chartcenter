@@ -2,6 +2,8 @@
 
 Security mitigation provides the ability for producers to specify mitigation notes for security issues associated with their Helm chart with their consumers.
 
+Should you have any questions, please email us at [chartcenter@jfrog.com](mailto:chartcenter@jfrog.com)
+
 These mitigation notes will appear on the security tab of your Helm chart on ChartCenter.
 
 You can get a copy of the [security-mitigations.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file here.
@@ -37,10 +39,9 @@ cves:
 | mitigations: cves: affectedVersions | SemVer Constraint from Masterminds/semver as used on Chart.yaml for kubeVersion specifying which versions should use the mitigation information. | Example: > 1.2.x || < 2.5.8 | 
 | mitigations: cves: description | Mitigation notes at CVE level. | text description | 
 
-# Examples
+## Examples
+Coming Soon...
 
-# Considerations
-
-## Working assumptions
+## Considerations
 Presence of security-mitigation.yaml also represents intent for producers to be transparent with their consumers. Once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. Let’s assume that application A has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
 
