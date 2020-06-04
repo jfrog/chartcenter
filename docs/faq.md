@@ -30,7 +30,7 @@ Yes, the maintainer notes are also available to the public. Instructions for how
 ## Can I use ChartCenter as a proxy?
 
 ## Does HelmCenter use Helm version 2 or version 3?
-ChartCenter includes all chart versions and application versions, which you can see in the UI right under the chart name. Api version: v1 refers to Helm2 charts and Api version: v2 refers to Helm3 charts. Helm3 is now the standard and provides better features with the removal of Tiller. You can learn more about [migrating Helmv2 to v3] (https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/)
+ChartCenter includes all chart versions and application versions, which you can see in the UI right under the chart name. Api version: v1 refers to Helm2 charts and Api version: v2 refers to Helm3 charts. Helm3 is now the standard and provides better features with the removal of Tiller. You can learn more about [migrating Helm v2 to v3](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/).
 
 ## How can I get involved?
 Coming soon. You can also email us at chartcenter@jfrog.com.
