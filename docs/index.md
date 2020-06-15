@@ -3,7 +3,7 @@
 ------
 
 # Welcome
-![JFrog HelmCenter Logo](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
+![JFrog ChartCenter Logo](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
 
 ChartCenter is a free central repository where you can search for and deploy any helm chart while getting up-to-date metadata around security, license info, metrics, and more! The central repository was built for - and will always be free for the community. 
 
@@ -27,7 +27,7 @@ Email: Shoot an email to chartcenter@jfrog.com
 
 # Reporting Technical Issues with ChartCenter
 
-[Open an issue](https://github.com/jfrog/helmcenter/issues) on this repository for any problems you experience while using our service or for any improvements you wish to discuss. When opening an issue, state clearly whether it is a bug/problem you are experiencing or a request for a new feature or improvement.
+[Open an issue](https://github.com/jfrog/chartcenter/issues) on this repository for any problems you experience while using our service or for any improvements you wish to discuss. When opening an issue, state clearly whether it is a bug/problem you are experiencing or a request for a new feature or improvement.
 
 If you are submitting a bug report, please provide detailed steps to reproduce your issue. If the issue is about a specific chart, your description should include the name of the chart and the version that you were searching for or trying to add/consume, if relevant.
 
