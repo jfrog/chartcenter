@@ -1,3 +1,7 @@
+# How Vulnerability Scanning works in ChartCenter
+
+ChartCenter uses a limited version of JFrog Xray to scan each available Helm chart and the dependencies associated with it and provides CVE data from the National Vulnerability Database. This means, we do not provide vulnerability information from the full set of propietary databases that premium Xray users have. Our intention is to provide chart users enough information to make informed choices about which chart versions to use.
+
 # Chart Maintainers can Activate High Vulnerabilities
 
 Are you the maintainer of a Helm chart on ChartCenter? 
