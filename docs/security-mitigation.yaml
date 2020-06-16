@@ -14,8 +14,8 @@ mitigationExternalFileUrl: URL
 ## Mitigation notes for individual CVEs
 mitigations:   
   cves: 
-## version type can be chart or app
-  versionsType:
+## Indicates package Uri for which the security mitigation is provided. helm://… || docker://… 
+  affectedPackageUri:
 ## Which chart versions this cve note belongs to
   affectedVersions: mastermind SemVer constraint
 ## Description / note
