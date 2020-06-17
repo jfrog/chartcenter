@@ -2,6 +2,8 @@
 [__FAQ__](faq.md) ------ 
 [__Inclusion Process__](inclusion.md) ------ 
 [__Public Roadmap__](roadmap.md) ------ 
+[__Security__](security.md) ------ 
+[__Security Mitigation__](securitymitigationspec.md) ------ 
 [__JFrog Container Registry__](jfrog-cr.md)
 
 # What is the JFrog Container Registry?
