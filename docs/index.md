@@ -3,27 +3,35 @@
 ------
 
 # Welcome
-![JFrog ChartCenter Logo](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
+![JFrog ChartCenter Logo](https://github.com/jfrog/chartcenter/blob/master/docs/ChartCenterlogo.png?raw=true)
 
-ChartCenter is a free central repository where you can search for and deploy any helm chart while getting up-to-date metadata around security, license info, metrics, and more! The central repository was built for - and will always be free for the community. 
+ChartCenter is a free Helm chart central repository and was built to help the Helm community find immutable, secure, and reliable charts and have a single source of truth to proxy all the charts from one location. Every chart and version is cached and can be retrieved using `helm repo add center https://repo.chartcenter.io`. ChartCenter immutability ensures that every chart version is available even if the original sources are no longer available. Our center even provides free security information about all publically known vulnerabilities in subcharts and containers. Other important features include dependencies and used by tabs, linting, provenance file data, license information, application version, Helm version, and many other metrics.
 
-Visit our official website: [chartcenter.io](https://chartcenter.io).
- 
-If you’re looking for ChartCenter documentation, you're in the right place! We have instructions on how our features work, how to find new charts on ChartCenter, and how you can add your own using a [pull request](#). We also have a [public roadmap](#) with open issues that we invite you get involved with.
-
-# Troubleshooting
-
-Over time, we’ve compiled a list of some of the most common troubleshooting issues that arise when using ChartCenter. Our troubleshooting tips can be found in our [FAQ](#).
+The central repository was built for - and will always be free for the community. Visit our official website: [chartcenter.io](https://chartcenter.io).
 
 # Release Notes
 
-ChartCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our [release.md](#) file. Stay up to date by checking out our latest release notes.
+ChartCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our [release.md](https://github.com/jfrog/chartcenter/blob/master/releases.md) file. Stay up to date by checking out our latest release notes.
 
-# Contact Us
+# Adding New Helm Charts and Repositories to ChartCenter
 
-Twitter: Ping us @jfrog
-Slack: Find us in #ChartCenter channel in the Kubernetes Slack
-Email: Shoot an email to chartcenter@jfrog.com
+ChartCenter invites you to add your chart repositories by providing your source url and other information in our [repos.yaml](https://github.com/jfrog/chartcenter/blob/master/repos.yaml) file. Start by reading the [inclusion guide](https://github.com/jfrog/chartcenter/blob/master/docs/inclusion.md) and then [making a pull request to repos.yaml](#).
+
+# Contributing Code to ChartCenter
+
+ChartCenter is a collaborative community made up of developers like you! 
+
+Before we can accept your contribution, process your GitHub pull requests, and thank you full-heartedly, we request that you will fill out and submit JFrog's Contributor License Agreement (CLA).
+
+[Click here](https://secure.echosign.com/public/hostedForm?formid=5IYKLZ2RXB543N) to submit the JFrog CLA. This should only take a minute to complete and is a one-time process.
+
+Thanks for Your Contribution to the Community! :-)
+
+# Documentation and Troubleshooting
+
+If you’re looking for ChartCenter documentation, you're in the right place! Our FAQ can answer questions on how our features work, how to find new charts on ChartCenter, and how you can add your own using a pull request. We also have a public roadmap with open issues that we invite you to get involved with.
+
+Over time, we’ve compiled a list of some of the most common troubleshooting issues that arise when using ChartCenter. Our troubleshooting tips can be found in our [FAQ](#).
 
 # Reporting Technical Issues with ChartCenter
 
@@ -36,18 +44,16 @@ If your issue already exists, select that issue and add any additional informati
 * If your issue is not appropriate for a public discussion, contact us via e-mail at chartcenter@jfrog.com.
 * If you have issues integrating Artifactory with JFrog ChartCenter and you have support, file a [support ticket](#).
 
-# Contributing to HelmCenter
-
-ChartCenter is a collaborative community made up of developers like you! 
-
-Before we can accept your contribution, process your GitHub pull requests, and thank you full-heartedly, we request that you will fill out and submit JFrog's Contributor License Agreement (CLA).
-
-[Click here](https://secure.echosign.com/public/hostedForm?formid=5IYKLZ2RXB543N) to submit the JFrog CLA. This should only take a minute to complete and is a one-time process.
-
-Thanks for Your Contribution to the Community! :-)
-
 # Legal and Links
 
-The [Terms of Service](#) for JFrog ChartCenter
-The JFrog ChartCenter [Privacy Policy](#)
+The [Terms of Service](https://chartcenter.io/terms) for JFrog ChartCenter
+The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy)
+
+# Contact Us
+
+* Twitter: tweet at us @chartcenter.io
+* Slack: Find us in #ChartCenter channel in the Kubernetes Slack
+* Email: chartcenter@jfrog.com
+
+
 
