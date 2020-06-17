@@ -47,7 +47,7 @@ cves:
 | useMitigationExternalFile | true means security-mitigation.yaml is hosted somewhere else. false means the content of the current file represents security mitigation information. Default value: false | true/false | 
 | mitigationExternalFileUrl | If useMitigationExternalFile is set to true, then this parameter points to a url of externally hosted security-mitigation.yaml | url | 
 | mitigations: cves | List of CVEs for which mitigation notes are being provided. | CVE-YYYY-NNNN | 
-| mitigations: cves: versionsType | If versionType is set to chart, then the affectedVersions represents chart versions. If versionType is set to app, then the affectedVersions represents application versions. | chart / app | 
+| mitigations: cves: affectedPackageUri | Indicates package Uri for which the security mitigation is provided. Currently we support only two package uri: Docker docker://docker.io/bitnami/postgres Helm helm://artifactory | uri | 
 | mitigations: cves: affectedVersions | SemVer Constraint from Masterminds/semver as used on Chart.yaml for kubeVersion specifying which versions should use the mitigation information. | Example: > 1.2.x || < 2.5.8 | 
 | mitigations: cves: description | Mitigation notes at CVE level. | text description | 
 
@@ -59,7 +59,12 @@ Example 2: Ability for producers point security mitigation information that is h
 Example 3: Ability for producers to point to externally hosted security-mitigation.yaml file.
 
 ## Considerations
-Presence of security-mitigation.yaml also represents intent for producers to be transparent with their consumers. Once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. Let’s assume that application A has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
+
+Presence of security-mitigation.yaml also represents intent for producers to be transparent with all high severity issues with their consumers. 
+
+Explanation: once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. 
+
+**Example 1:** Let’s assume that application A has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
 
 Should you have any questions, please email us at [chartcenter@jfrog.com](mailto:chartcenter@jfrog.com)
 
