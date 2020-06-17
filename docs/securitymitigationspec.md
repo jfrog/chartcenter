@@ -4,15 +4,13 @@ Security Mitigation Notes are a way for you as the chart maintainer to add notes
 
 [SCREENSHOT]
 
-You can use the spec below to fill out the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file to get these notes on the security tab of your chart. Please not that high severity vulnerabilities are hidden for now, but once you push 
+You can use the spec below to fill out the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file to get these notes on the security tab of your chart. Please note that high severity vulnerabilities are hidden on the UI be default, but once you push us your security-migitation.yaml, we are taking in as your permission to publish details and provide full transparency for high vulnerabilites as well. 
 
-You have the ability to activate high vulnerability CVE details on ChartCenter's UI by filling out the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml)file and including it in your next chart release. Once you add a single CVE note on a high vulnerability and send us the file, you are opting in for us to activate details for all high vulnerabilities. 
-
-
+**Once you add a single CVE note on a high vulnerability and send us the file, you are opting in for us to activate details for all high vulnerabilities.**
 
 This spec will walk you through how to the  should be filled out.
 
-# Spec
+# Here is the Spec
 
 Security mitigation provides the ability for producers to specify mitigation notes for security issues associated with their Helm chart with their consumers.
 
