@@ -62,7 +62,7 @@ Example 3: Ability for producers to point to externally hosted security-mitigati
 
 Presence of security-mitigation.yaml also represents intent for producers to be transparent with all high severity issues with their consumers. 
 
-Explanation: once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. 
+**Explanation:** once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. 
 
 **Example 1:** Let’s assume that application A has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
 
