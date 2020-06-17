@@ -50,11 +50,16 @@ If your issue already exists, select that issue and add any additional informati
 * If your issue is not appropriate for a public discussion, contact us via e-mail at chartcenter@jfrog.com.
 * If you have issues integrating Artifactory with JFrog ChartCenter and you have support, file a [support ticket](#).
 
-
-
 # Legal and Links
 
-The [Terms of Service](#) for JFrog ChartCenter
-The JFrog ChartCenter [Privacy Policy](#)
+The [Terms of Service](https://chartcenter.io/terms) for JFrog ChartCenter
+The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy)
+
+# Contact Us
+
+Twitter: Ping us @jfrog
+Slack: Find us in #ChartCenter channel in the Kubernetes Slack
+Email: Shoot an email to chartcenter@jfrog.com
+
 
 
