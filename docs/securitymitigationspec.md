@@ -16,13 +16,13 @@ This spec will walk you through how to the  should be filled out.
 
 # Here is the Spec
 
+You can get a copy of the [security-mitigations.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file here.
+
 Security mitigation provides the ability for producers to specify mitigation notes for security issues associated with their Helm chart with their consumers.
 
 [SCREENSHOT]
 
 These mitigation notes will appear on the security tab of your Helm chart on ChartCenter.
-
-You can get a copy of the [security-mitigations.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file here.
 
 The security mitigation spec supports 3 use cases:
 * Ability for producers to provide overall and/or CVE specific mitigation information. 
