@@ -51,6 +51,8 @@ We will verify your namespace and check that you are the author of the project b
 
 ### Legal and License Compliance
 
+The [Terms of Service](https://chartcenter.io/terms) for JFrog ChartCenter The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy).
+
 # We want your feedback
 
 As we continue to build out the HelmCenter inclusion process, we want her help improving how new charts are added. You can provide your feedback on the process by commenting on this open issue here.
