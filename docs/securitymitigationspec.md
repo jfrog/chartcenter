@@ -40,7 +40,11 @@ cves:
 | mitigations: cves: description | Mitigation notes at CVE level. | text description | 
 
 ## Examples
-Coming Soon...
+Example 1: Ability for producers to provide overall and/or CVE specific mitigation information. 
+
+Example 2: Ability for producers point security mitigation information that is hosted externally on wiki / webpage.
+
+Example 3: Ability for producers to point to externally hosted security-mitigation.yaml file.
 
 ## Considerations
 Presence of security-mitigation.yaml also represents intent for producers to be transparent with their consumers. Once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. Let’s assume that application A has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
