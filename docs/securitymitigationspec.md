@@ -14,7 +14,7 @@ You can use the spec below to fill out the [security-mitigation.yaml](https://gi
 
 This spec will walk you through how to the  should be filled out.
 
-# Here is the Spec
+# Here is the Spec:
 
 You can get a copy of the [security-mitigations.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file here.
 
