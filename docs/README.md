@@ -33,12 +33,6 @@ If you’re looking for ChartCenter documentation, you're in the right place! Ou
 
 Over time, we’ve compiled a list of some of the most common troubleshooting issues that arise when using ChartCenter. Our troubleshooting tips can be found in our [FAQ](#).
 
-# Contact Us
-
-Twitter: Ping us @jfrog
-Slack: Find us in #ChartCenter channel in the Kubernetes Slack
-Email: Shoot an email to chartcenter@jfrog.com
-
 # Reporting Technical Issues with ChartCenter
 
 [Open an issue](https://github.com/jfrog/chartcenter/issues) on this repository for any problems you experience while using our service or for any improvements you wish to discuss. When opening an issue, state clearly whether it is a bug/problem you are experiencing or a request for a new feature or improvement.
@@ -57,9 +51,9 @@ The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy)
 
 # Contact Us
 
-Twitter: Ping us @jfrog
+Twitter: tweet at us @chartcenter.io
 Slack: Find us in #ChartCenter channel in the Kubernetes Slack
-Email: Shoot an email to chartcenter@jfrog.com
+Email: chartcenter@jfrog.com
 
 
 
