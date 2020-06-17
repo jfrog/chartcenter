@@ -1,8 +1,6 @@
-[__Welcome__](index.md) ------ 
-[__FAQ__](faq.md) ------ 
-[__Inclusion Process__](inclusion.md) ------ 
-[__Public Roadmap__](roadmap.md) ------ 
-[__JFrog Container Registry__](jfrog-cr.md)
+[__Welcome__](index.md) | [__FAQ__](faq.md) | [__Inclusion Process__](inclusion.md) | [__Public Roadmap__](roadmap.md) | [__Security Tab__](security.md) | [__Mitigation Notes__](securitymitigationspec.md) | [__JFrog Container Registry__](jforg-cr.md) |
+
+------
 
 # Our Public Roadmap 
 Explore the issues we're considering to add to the next version of ChartCenter:
