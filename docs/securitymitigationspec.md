@@ -1,3 +1,7 @@
+[__Welcome__](index.md) | [__FAQ__](faq.md) | [__Inclusion Process__](inclusion.md) | [__Public Roadmap__](roadmap.md) | [__Security Tab__](security.md) | [__Mitigation Notes__](securitymitigationspec.md) | [__JFrog Container Registry__](jforg-cr.md) |
+
+------
+
 # Security Mitigation Notes
 
 Security Mitigation Notes are a way for you as the chart maintainer to add notes on our UI that users can read to understand the status of vulnerabilities. 
