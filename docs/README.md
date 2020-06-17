@@ -2,16 +2,8 @@
 
 ------
 
-# Welcome
-![JFrog ChartCenter Logo](https://github.com/jfrog/chartcenter/blob/master/docs/ChartCenterlogo.png?raw=true)
+# Welcome to our Documentation
 
-ChartCenter is a free Helm chart central repository and was built to help the Helm community find immutable, secure, and reliable charts and have a single source of truth to proxy all the charts from one location. Every chart and version is cached and can be retrieved using `helm repo add center https://repo.chartcenter.io`. ChartCenter immutability ensures that every chart version is available even if the original sources are no longer available. Our center even provides free security information about all publically known vulnerabilities in subcharts and containers. Other important features include dependencies and used by tabs, linting, provenance file data, license information, application version, Helm version, and many other metrics.
-
-The central repository was built for - and will always be free for the community. Visit our official website: [chartcenter.io](https://chartcenter.io).
-
-# Release Notes
-
-ChartCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our [release.md](https://github.com/jfrog/chartcenter/blob/master/releases.md) file. Stay up to date by checking out our latest release notes.
 
 # Adding New Helm Charts and Repositories to ChartCenter
 
