@@ -54,5 +54,5 @@ The [Terms of Service](https://chartcenter.io/terms) for JFrog ChartCenter The J
 
 # We want your feedback
 
-As we continue to build out the ChartCenter inclusion process, we want her help improving how new charts are added. You can provide your feedback on the process by commenting on this [open issue here](#).
+As we continue to build out the ChartCenter inclusion process, we want your help improving how repositories and charts are added. You can provide your feedback on the process by commenting on this [open issue here](#).
 
