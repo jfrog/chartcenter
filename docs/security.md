@@ -10,6 +10,10 @@ ChartCenter uses [JFrog Xray](https://jfrog.com/xray/) to scan each available He
 
 By default, the Security tab for each chart version will show you unknown, low, and medium severities using the CVSS v2 rating scale. High severity vulnerabilities will be hidden until the maintainer of the chart chooses to activate that information.  We've given chart maintainers control over high severity information to encourage them to fix or provide mitigation notes on these issues. Our goal is not to penalize chart maintainers to issues that are found in third-party components. Our intention is to provide chart users enough information to make informed choices about which chart versions to use.
 
+This information is presented on the security tab in columns, but you can also see which vulnerabilities are present on the **dependencies tab** and drill down into the container image to see more.
+
+![Container](https://github.com/jfrog/chartcenter/blob/master/docs/screend.png?raw=true)
+
 # How Chart Maintainers can Activate High Vulnerabilities
 
 Are you the maintainer of a Helm chart on ChartCenter? 
