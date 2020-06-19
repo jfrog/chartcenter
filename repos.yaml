@@ -1,5 +1,5 @@
 # This file contains the contact information for repositories exposed through
-# the HelmCenter. Each repository has a url, the base path to its location, and
+# the ChartCenter. Each repository has a url, the base path to its location, and
 # maintainer information.
 #
 # repositories:
