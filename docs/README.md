@@ -23,9 +23,9 @@ Stay up to date by checking out our latest release notes.
 
 ChartCenter invites you to add your chart repositories by providing your source url and other information in our [repos.yaml](https://github.com/jfrog/chartcenter/blob/master/repos.yaml) file. Start by reading the [inclusion guide](https://github.com/jfrog/chartcenter/blob/master/docs/inclusion.md) and then [making a pull request to repos.yaml](#).
 
-# Contributing Code to ChartCenter
+# Contributing to ChartCenter
 
-ChartCenter is a collaborative community made up of developers like you! 
+ChartCenter is a collaborative community made up of developers like you! We invite you to get involved on building-up features and suggesting improvements.
 
 Before we can accept your contribution, process your GitHub pull requests, and thank you full-heartedly, we request that you will fill out and submit JFrog's Contributor License Agreement (CLA).
 
