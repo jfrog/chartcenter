@@ -6,7 +6,7 @@
 Do you have a question about ChartCenter? We have the answer!
 
 ## How do I add charts to ChartCenter?
-Start by reading the [inclusion guide](#) and then making a pull request to the repos.yaml file. 
+Start by reading the [inclusion guide](inclusion.md) and then making a pull request to the repos.yaml file. 
 
 ## How do I install the Helm Charts on ChartCenter?
 First, you'll need to make sure you have downloaded [Helm](https://helm.sh/docs/intro/install/).
