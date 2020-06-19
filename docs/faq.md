@@ -13,6 +13,10 @@ First, you'll need to make sure you have downloaded [Helm](https://helm.sh/docs/
 Next, you'll want to configure ChartCenter using the command `helm repo add center https://repo.chartcenter.io`.
 Now, once you have found the chart you want to use - you can use the command helm install [ PATH ]. For example, to intall the artifactory chart you use `helm install center/jfrog/artifactory`.
 
+## How do I activate my email for mitigation notes?
+
+First, go to the ChartCenter security tab for your chart and click on **Are you a chart maintainer?** on the top-left. This will open up a box that allows you to provide your email. As long as your email address is associated with the chart, your email will be activated and you can provide us mitigation notes using the [security specifications.(securitymigitationspec.md)
+
 ## What is the Security Mitigation YAML file?
 ChartCenter is the first central repository of Helm charts to provide free vulnerability information right in the UI. Given the various components that are bundled into a helm chart and its list dependencies, we've also built an easy way for chart maintainers to provide mitigation notes (such as issues that are being resolved in the next release and vulnerabilities that aren't directly included in the application). These notes are stored in a YAML file called security-mitigation.yaml.  [More information can be found here](https://github.com/jfrog/chartcenter/blob/master/docs/securitymitigationspec.md).
 
