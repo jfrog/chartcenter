@@ -17,9 +17,9 @@
       email: info@jfrog.com
 ```
 
-3. The pull request will be reviewed by the ChartCenter team and if it follows our guidelines, will be available on ChartCenter soon after. 
+The pull request will be reviewed by the ChartCenter team and if it follows our guidelines, will be available on ChartCenter soon after. 
 
-You will receive an email confirmation that your repo has been added.
+3. You will receive a confirmation that your pull request has been merged and your repo has been added successfully.
 
 For issues, email us at chartcenter@jfrog.com with the subject [Add Charts to ChartCenter].
 
