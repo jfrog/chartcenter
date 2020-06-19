@@ -20,7 +20,7 @@ This spec will walk you through how to the  should be filled out.
 
 You can get a copy of the [security-mitigations.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file here.
 
-[!Example](https://github.com/jfrog/chartcenter/blob/master/docs/screen4.png?raw=true)
+![Example](https://github.com/jfrog/chartcenter/blob/master/docs/screen4.png?raw=true)
 
 Security mitigation provides the ability for producers to specify mitigation notes for security issues associated with their Helm chart with their consumers.
 
@@ -31,20 +31,7 @@ The security mitigation spec supports 3 use cases:
 * Ability for producers to point security to a mitigation website that is hosted externally on a wiki / webpage.
 * Ability for producers to point to externally hosted security-mitigation.yaml file.
 
-Here’s the format:
-
-schemaVersion: v1
-summary: text
-securityAdvisoryUrl: URL
-useMitigationExternalFile: boolean
-mitigationExternalFileUrl: URL
-
-mitigations:
-cves: 
-  CVE-YYYY-NNNN
-  affectedPackageUri: chart | app
-  affectedVersions: mastermind SemVer constraint
-  description: text
+Here are the fields:
 
 | Field  | Description | Type |
 | ------------- | ------------- | ---- |
@@ -64,9 +51,7 @@ Example 2: Ability for producers point security mitigation information that is h
 
 Example 3: Ability for producers to point to externally hosted security-mitigation.yaml file.
 
-## Considerations
-
-Presence of security-mitigation.yaml also represents intent for producers to be transparent with all high severity issues with their consumers. 
+## Presence of security-mitigation.yaml also represents intent for producers to be transparent with all high severity issues with their consumers. 
 
 **Explanation:** once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. 
 
