@@ -17,7 +17,7 @@
       email: info@jfrog.com
 ```
 
-The pull request will be reviewed by the ChartCenter team and if it follows our guidelines, will be available on ChartCenter soon after. 
+3. The pull request will be reviewed by the ChartCenter team and if it follows our guidelines, will be available on ChartCenter soon after. 
 
 You will receive an email confirmation that your repo has been added.
 
