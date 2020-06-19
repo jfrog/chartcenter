@@ -6,9 +6,11 @@
 
 Security Mitigation Notes are a way for you as the chart maintainer to add notes on our UI that users can read to understand the status of vulnerabilities. 
 
-[SCREENSHOT]
+![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screen3.png?raw=true)
 
-You can use the spec below to fill out the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file to get these notes on the security tab of your chart. Please note that high severity vulnerabilities are hidden on the UI be default, but once you push us your security-migitation.yaml, we are taking in as your permission to publish details and provide full transparency for high vulnerabilites as well. 
+You can use the spec below to fill out the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file to get these notes on the security tab of your chart on the UI. 
+
+Please note that high severity vulnerabilities are hidden on the UI be default, **but once you include your security-migitation.yaml**, your high vulnerabiliteis will be activated and we will publish details of high vulnerabilities on the security tab as well.
 
 **Once you add a single CVE note on a high vulnerability and send us the file, you are opting in for us to activate details for all high vulnerabilities.**
 
@@ -18,15 +20,15 @@ This spec will walk you through how to the  should be filled out.
 
 You can get a copy of the [security-mitigations.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file here.
 
-Security mitigation provides the ability for producers to specify mitigation notes for security issues associated with their Helm chart with their consumers.
+[!Example](https://github.com/jfrog/chartcenter/blob/master/docs/screen4.png?raw=true)
 
-[SCREENSHOT]
+Security mitigation provides the ability for producers to specify mitigation notes for security issues associated with their Helm chart with their consumers.
 
 These mitigation notes will appear on the security tab of your Helm chart on ChartCenter.
 
 The security mitigation spec supports 3 use cases:
 * Ability for producers to provide overall and/or CVE specific mitigation information. 
-* Ability for producers to point security mitigation information that is hosted externally on a wiki / webpage.
+* Ability for producers to point security to a mitigation website that is hosted externally on a wiki / webpage.
 * Ability for producers to point to externally hosted security-mitigation.yaml file.
 
 Here’s the format:
@@ -40,7 +42,7 @@ mitigationExternalFileUrl: URL
 mitigations:
 cves: 
   CVE-YYYY-NNNN
-  versionsType: chart | app
+  affectedPackageUri: chart | app
   affectedVersions: mastermind SemVer constraint
   description: text
 
