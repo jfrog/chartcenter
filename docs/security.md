@@ -33,4 +33,4 @@ You can provide the security-migitation.yaml file in two ways:
 1. Include the this yaml file in your latest chart
 2. Email us the security-mitigation.yaml file from email associated with your chart or repo
 
-[The specifications for this yaml file can be found here](#securitymitigationspec.md).
+[The specifications for this yaml file can be found here](securitymitigationspec.md).
