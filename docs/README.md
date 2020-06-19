@@ -54,7 +54,7 @@ If your issue already exists, select that issue and add any additional informati
 # Legal and Links
 
 The [Terms of Service](https://chartcenter.io/terms) for JFrog ChartCenter
-The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy)
+The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy).
 
 # Contact Us
 
