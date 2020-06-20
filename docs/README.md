@@ -17,7 +17,7 @@ The central repository was built for - and will always be free for the community
 
 ChartCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our [release.md](https://github.com/jfrog/chartcenter/blob/master/releases.md) file. 
 
-Stay up to date by checking out our latest release notes.
+Stay up to date by checking out our [latest release notes]((https://github.com/jfrog/chartcenter/blob/master/releases.md)).
 
 # Adding New Helm Charts and Repositories to ChartCenter
 
