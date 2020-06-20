@@ -20,7 +20,7 @@ First, go to the ChartCenter security tab for your chart and click on **Are you 
 ## What is the Security Mitigation YAML file?
 ChartCenter is the first central repository of Helm charts to provide free vulnerability information right in the UI. Given the various components that are bundled into a helm chart and its list dependencies, we've also built an easy way for chart maintainers to provide mitigation notes (such as issues that are being resolved in the next release and vulnerabilities that aren't directly included in the application). These notes are stored in a YAML file called security-mitigation.yaml.  [More information can be found here](https://github.com/jfrog/chartcenter/blob/master/docs/securitymitigationspec.md).
 
-## Does HelmCenter use Helm version 2 or version 3?
+## Does ChartCenter use Helm version 2 or version 3?
 ChartCenter includes all chart versions and application versions, which you can see in the UI right under the chart name. Api version: v1 refers to Helm2 charts and Api version: v2 refers to Helm3 charts. Helm3 is now the standard and provides better features with the removal of Tiller. You can learn more about [migrating Helm v2 to v3](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/).
 
 ## How can I get involved?
