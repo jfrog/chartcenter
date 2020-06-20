@@ -7,10 +7,4 @@ assignees: ''
 
 ---
 
-repositories:
-   - name: example
-      type: helm
-      url: https://example.com
-      maintainers:
-          - name: foo
-          email: foo@example.com
+
