@@ -34,7 +34,7 @@ Many Helm charts use third-party components and we're aware that these component
 
 This means, we do not provide vulnerability information from the full set of proprietary databases that paid Xray users have access to.   
 
-# Mitigation Notes 
+# Maintainer Notes 
 
 The ChartCenter security tab includes the ability for chart maintainers to provide notes under each individual CVE using the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file. 
 
