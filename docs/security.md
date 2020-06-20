@@ -12,7 +12,7 @@ By default, the Security tab for each chart version will show you unknown, low, 
 
 **High severity vulnerabilities will be hidden until the maintainer of the chart chooses to activate that information.**  
 
-![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screen2.png?raw=true)
+![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screenh.png?raw=true)
 
 We've given chart maintainers control over high severity information to encourage them to fix or provide mitigation notes on these issues. Our goal is not to penalize chart maintainers to issues that are found in third-party components. Our intention is to provide chart users enough information to make informed choices about which chart versions to use.
 
