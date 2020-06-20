@@ -36,7 +36,7 @@ This means, we do not provide vulnerability information from the full set of pro
 
 The ChartCenter security tab includes the ability for chart maintainers to provide notes under each individual CVE using the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file. 
 
-![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screen1.png?raw=true)
+![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screenm.jpg?raw=true)
 
 You can provide the security-migitation.yaml file in two ways:
 
