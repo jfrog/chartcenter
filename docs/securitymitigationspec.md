@@ -6,7 +6,7 @@
 
 Security Mitigation Notes are a way for you as the chart maintainer to add notes on our UI that users can read to understand the status of vulnerabilities. 
 
-![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screen3.png?raw=true)
+![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/mi1.jpg?raw=true)
 
 You can use the spec below to fill out the [security-mitigation.yaml](https://github.com/jfrog/chartcenter/blob/master/docs/security-mitigation.yaml) file to get these notes on the security tab of your chart on the UI. 
 
