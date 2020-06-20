@@ -6,6 +6,8 @@
 
 ChartCenter uses [JFrog Xray](https://jfrog.com/xray/) to scan each available Helm chart and the dependencies associated with it and provides CVE information by severity level from the [National Vulnerability Database](https://nvd.nist.gov/). 
 
+The information available on ChartCenter may not include all vulnerabilities and the actual severities thereof and is based on running a limited version of JFrog's Xray.
+
 ![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screen2.png?raw=true)
 
 By default, the Security tab for each chart version will show you unknown, low, and medium severities using the CVSS v2 rating scale. High severity vulnerabilities will be hidden until the maintainer of the chart chooses to activate that information.  
