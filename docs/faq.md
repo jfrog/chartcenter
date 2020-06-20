@@ -11,7 +11,7 @@ Start by reading the [inclusion guide](inclusion.md) and then making a pull requ
 ## How do I install the Helm Charts on ChartCenter?
 First, you'll need to make sure you have downloaded [Helm](https://helm.sh/docs/intro/install/).
 Next, you'll want to configure ChartCenter using the command `helm repo add center https://repo.chartcenter.io`.
-Now, once you have found the chart you want to use - you can use the command helm install [ PATH ]. For example, to intall the artifactory chart you use `helm install center/jfrog/artifactory`.
+Now, once you have found the chart you want to use - you can use the command helm install [ PATH ]. For example, to install the artifactory chart you use `helm install center/jfrog/artifactory`.
 
 ## How do I activate my email for mitigation notes?
 
