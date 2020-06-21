@@ -47,6 +47,25 @@ Here are the fields:
 ## Examples
 Example 1: Ability for producers to provide overall and/or CVE specific mitigation information. 
 
+`schemaVersion: v1
+    summary: This chart is secure
+    securityAdvisoryUrl:
+    mitigationExternalFileUrl:
+    mitigations:   
+     cves: 
+        CVE-1234
+        CVE-5432
+      affectedPackageUri: 
+        affectedVersions: > 1.2.x || < 2.5.8
+        description: This security mitigation information for CVE-1234 & CVE-5432 applies to the specified affectedVersions of charts.
+    cves: 
+        CVE-3456
+      affectedPackageUri: 
+        affectedVersions: 6.x || 7.x
+        description: This security mitigation information for CVE-3456 applies to application versions spe & CVE-5432 applies to the specified affectedVersions of the application.`
+
+
+
 Example 2: Ability for producers point security mitigation information that is hosted externally on wiki / webpage.
 
 Example 3: Ability for producers to point to externally hosted security-mitigation.yaml file.
