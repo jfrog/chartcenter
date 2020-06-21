@@ -13,6 +13,8 @@ ChartCenter immutability ensures that every chart version is available even if t
 
 The central repository was built for - and will always be free for the community. Visit our official website: [chartcenter.io](https://chartcenter.io).
 
+![Screenshot](https://github.com/jfrog/chartcenter/blob/master/docs/charts.jpg?raw=true)
+
 # Release Notes
 
 ChartCenter is consistently improving your experience based on feedback from the community. We regularly make small improvements and keep a running list of major improvements in our [release.md](https://github.com/jfrog/chartcenter/blob/master/releases.md) file. 
