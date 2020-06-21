@@ -68,7 +68,16 @@ Example 1: Ability for producers to provide overall and/or CVE specific mitigati
 
 Example 2: Ability for producers point security mitigation information that is hosted externally on wiki / webpage.
 
+`schemaVersion: v1
+summary: Artifactory helm chart is secure and details are mentioned in the security advisory page. 
+securityAdvisoryUrl: https://jfrog.com/artifactory/security-advisory.html`
+
 Example 3: Ability for producers to point to externally hosted security-mitigation.yaml file.
+
+`schemaVersion: v1
+summary: Artifactory helm chart is secure and details are mentioned in the security advisory page. 
+securityAdvisoryUrl: https://jfrog.com/artifactory/security-advisory.html
+mitigationExternalFileUrl: https://jfrog.com/artifactory/security-mitigation.yaml`
 
 ## Presence of security-mitigation.yaml also represents intent for producers to be transparent with all high severity issues with their consumers. 
 
