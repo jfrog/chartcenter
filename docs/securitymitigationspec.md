@@ -83,7 +83,7 @@ mitigationExternalFileUrl: https://jfrog.com/artifactory/security-mitigation.yam
 
 **Explanation:** once a mitigation note is provied for 1 high CVE, all high CVEs will be activiated and made public in the UI. 
 
-**Example 1:** Let’s assume that application A has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
+**Example 1:** Let’s assume that **application A** has 5 high severity issues. If mitigation information is provided for 1 CVE that has high severity, then all 5 security issues will be made public on the UI.
 
 Should you have any questions, please email us at [chartcenter@jfrog.com](mailto:chartcenter@jfrog.com)
 
