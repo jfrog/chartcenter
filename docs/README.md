@@ -45,7 +45,7 @@ If you have more questions, feel free to email us: chartcenter@jfrog.com.
 
 # Reporting Technical Issues with ChartCenter
 
-The best way to report a problem is to [open an issue](https://github.com/jfrog/chartcenter/issues) on this repository. When opening an issue, state clearly whether it is a bug/problem you are experiencing or a request for a new feature or improvement.
+The best way to report a problem is to [open an issue](https://github.com/jfrog/chartcenter/issues/new/choose) on this repository. When opening an issue, state clearly whether it is a bug/problem you are experiencing or a request for a new feature or improvement.
 
 If you are submitting a bug report, please provide detailed steps to reproduce your issue. If the issue is about a specific chart, your description should include the name of the chart and the version that you were searching for or trying to add/consume, if relevant.
 
