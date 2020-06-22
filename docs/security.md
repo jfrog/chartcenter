@@ -8,9 +8,9 @@ ChartCenter uses [JFrog Xray](https://jfrog.com/xray/) to scan each available He
 
 The information available on ChartCenter may not include all vulnerabilities and the actual severities thereof and is based on running a limited version of JFrog's Xray.
 
-By default, the security tab for each chart version will show you unknown, low, and medium severities using the CVSS v2 rating. 
+## High severity vulnerabilities will be hidden until the maintainer of the chart chooses to activate that information by providing [mitigation notes](securitymitigationspec.md). 
 
-**High severity vulnerabilities will be hidden until the maintainer of the chart chooses to activate that information by providing [mitigation notes](securitymitigationspec.md).**  
+By default, the security tab for each chart version will show you unknown, low, and medium severities using the CVSS v2 rating. We've provided chart maintainers a feature that allows them to tell us when they'd like to expose high vulnerability data.
 
 ![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/screenh.png?raw=true)
 
