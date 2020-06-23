@@ -17,7 +17,10 @@ Visit our official website: [chartcenter.io](https://chartcenter.io).
 
 **Community** 
 
-The central repository was built for - and will always be free for the community. We have a few [community events](https://github.com/jfrog/chartcenter/blob/master/docs/community.md) this summer where we'll show off more of its expanding capabilities. You can see one of our community walkthrough videos here: https://youtu.be/KlNjx1hk5UE.
+The central repository was built for - and will always be free for the community. We have a few [community events](https://github.com/jfrog/chartcenter/blob/master/docs/community.md) this summer where we'll show off more of its expanding capabilities. 
+
+You can see one of our community walkthrough videos here: https://youtu.be/KlNjx1hk5UE.
+
 
 ![Screenshot](https://github.com/jfrog/chartcenter/blob/master/docs/charts.jpg?raw=true)
 
