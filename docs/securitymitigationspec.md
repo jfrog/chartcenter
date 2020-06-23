@@ -49,21 +49,21 @@ Example 1: Ability for producers to provide overall and/or CVE specific mitigati
 
 ```
 schemaVersion: v1
-    summary: This chart is secure
-    securityAdvisoryUrl:
-    mitigationExternalFileUrl:
-    mitigations:   
-     cves: 
+summary: This chart is secure
+securityAdvisoryUrl:
+mitigationExternalFileUrl:
+mitigations:   
+    cves: 
         CVE-1234
         CVE-5432
-      affectedPackageUri: 
-        affectedVersions: > 1.2.x || < 2.5.8
-        description: This security mitigation information for CVE-1234 & CVE-5432 applies to the specified affectedVersions of charts.
-      cves: 
+    affectedPackageUri: 
+    affectedVersions: > 1.2.x || < 2.5.8
+    description: This security mitigation information for CVE-1234 & CVE-5432 applies to the specified affectedVersions of charts.
+    cves: 
         CVE-3456
-      affectedPackageUri: 
-        affectedVersions: 6.x || 7.x
-        description: This security mitigation information for CVE-3456 applies to application versions spe & CVE-5432 applies to the specified affectedVersions of the application.
+    affectedPackageUri: 
+    affectedVersions: 6.x || 7.x
+    description: This security mitigation information for CVE-3456 applies to application versions spe & CVE-5432 applies to the specified affectedVersions of the application.
 ```
 
 
@@ -71,17 +71,17 @@ Example 2: Ability for producers point security mitigation information that is h
 
 ```
 schemaVersion: v1
-    summary: Artifactory helm chart is secure and details are mentioned in the security advisory page. 
-    securityAdvisoryUrl: https://jfrog.com/artifactory/security-advisory.html
+summary: Artifactory helm chart is secure and details are mentioned in the security advisory page. 
+securityAdvisoryUrl: https://jfrog.com/artifactory/security-advisory.html
 ```
 
 Example 3: Ability for producers to point to externally hosted security-mitigation.yaml file.
 
 ```
 schemaVersion: v1
-    summary: Artifactory helm chart is secure and details are mentioned in the security advisory page. 
-    securityAdvisoryUrl: https://jfrog.com/artifactory/security-advisory.html
-    mitigationExternalFileUrl: https://jfrog.com/artifactory/security-mitigation.yaml
+summary: Artifactory helm chart is secure and details are mentioned in the security advisory page. 
+securityAdvisoryUrl: https://jfrog.com/artifactory/security-advisory.html
+mitigationExternalFileUrl: https://jfrog.com/artifactory/security-mitigation.yaml
 ```
 
 ## Presence of security-mitigation.yaml also represents intent for producers to be transparent with all high severity issues with their consumers. 
