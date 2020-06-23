@@ -26,8 +26,3 @@ Another consideration for inclusion and namespaces includes how we should priori
 
 [See Open Issue](#)
 
-## OCI Support
-
-Currently OCI support in Helm is experimental, but there is a growing case for OCI compliance in Helm and we are considering adding this support to ChartCenter as well. OCI is an industry standard that defines specifications around cloud-native artifacts and creates a common standard. Join the discussion:
-
-[See Open Issue](#)
