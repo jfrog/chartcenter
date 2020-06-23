@@ -23,6 +23,12 @@ ChartCenter is the first central repository of Helm charts to provide free vulne
 ## Does ChartCenter use Helm version 2 or version 3?
 ChartCenter includes all chart versions and application versions, which you can see in the UI right under the chart name. Api version: v1 refers to Helm2 charts and Api version: v2 refers to Helm3 charts. Helm3 is now the standard and provides better features with the removal of Tiller. You can learn more about [migrating Helm v2 to v3](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/).
 
+## Can I use ChartCenter for dependency charts?
+
+ChartCenter current can not be used for dependencies charts referencing. The limit is in the Helm client command helm package  doesn’t support an extra namespace the ChartCenter added. To fix it there are two options:
+* Create a Helm plugin which then can be used for Helm v2 and v3 
+* Create a PR with a fix for the Helm v3 client only, as Helm v2 does not accept any new features anymore.
+
 ## How can I get involved?
 We’ve got a number of open issues on the [public roadmap](https://github.com/jfrog/chartcenter/blob/master/docs/roadmap.md). Feel free to comment or email us at chartcenter@jfrog.com.
 
