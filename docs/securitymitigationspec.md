@@ -4,7 +4,7 @@
 
 # Security Mitigation Notes
 
-Security Mitigation Notes are a way for you as the chart maintainer to add notes on our UI that users can read to understand the status of vulnerabilities. Your high severity vulnerabilities are hidden by default to give you time to mitigate. **Once you add mitigation notes to any high severity vulnerability, you are opting-in for us to make all of your vulnerability information available on the UI.**
+Security Mitigation Notes are a way for you as the chart maintainer to add notes on our UI that users can read to understand the status of vulnerabilities. Your high severity vulnerabilities are hidden by default to give you time to mitigate. **Once you add mitigation notes to any high severity vulnerability using the security-mitigation.yaml (outlined below), you are opting-in for us to make all of your vulnerability information available on the UI.**
 
 ![Mitigation](https://github.com/jfrog/chartcenter/blob/master/docs/mi1.jpg?raw=true)
 
