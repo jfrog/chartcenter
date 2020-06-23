@@ -13,4 +13,6 @@ Helm 3 is developing a set of best practices that help make Kubernetes applicati
 * Certificates, signatures, and verification
 * Secrets management best practices and more!
 
-More community events to be posted soon!
+**Sign Up link coming soon**
+
+More community events to be posted in a few weeks!
