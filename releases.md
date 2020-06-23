@@ -1,6 +1,6 @@
 # Release Notes
 
-2020 June 24: GA
+## 2020 June 24: GA
 Chartcenter.io goes live! Read our blog for more information.
 
 * Basic ability to search for charts
