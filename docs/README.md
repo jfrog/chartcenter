@@ -62,6 +62,10 @@ If your issue already exists, select that issue and add any additional informati
 
 * If your issue is not appropriate for a public discussion, contact us via e-mail at chartcenter@jfrog.com.
 
+# Security Features
+
+Chartcenter includes free vulnerability scanning from [JFrog Xray](https://jfrog.com/xray/). The security tab on each chart version provides unknown, low, and medium severity issues coming from the National Vulnerability Database using CVSS v2. High severity issues are available, but must be activated by chart maintainers. [Learn more](https://github.com/jfrog/chartcenter/blob/master/docs/securitymitigationspec.md).
+
 # Legal and Links
 
 The [Terms of Service](https://chartcenter.io/terms) for JFrog ChartCenter
