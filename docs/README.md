@@ -13,7 +13,11 @@ In ChartCenter, every chart and version is cached and can be retrieved using
 
 ChartCenter immutability ensures that every chart version is available even if the original sources are no longer available. Our center also provides free security information about known vulnerabilities in subcharts and containers. Other important features include dependency and used by tree, lint validation, provenance file, license information, application version, Helm version, and more!
 
-The central repository was built for - and will always be free for the community. Visit our official website: [chartcenter.io](https://chartcenter.io).
+**Community** 
+
+The central repository was built for - and will always be free for the community. We have a few [community events](https://github.com/jfrog/chartcenter/blob/master/docs/community.md) this summer where we'll show off more of its expanding capabilities.
+
+Visit our official website: [chartcenter.io](https://chartcenter.io).
 
 ![Screenshot](https://github.com/jfrog/chartcenter/blob/master/docs/charts.jpg?raw=true)
 
