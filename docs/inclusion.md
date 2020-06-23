@@ -6,7 +6,7 @@
 
 1. The first step in adding a chart to ChartCenter includes creating a repository following the **guidelines** outlined below.
 
-2. Once you have understood the guidelines for naming your repository, the 2nd step is to clone the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new [pull request](#) with the following pieces of information added to the file:
+2. Once you have understood the guidelines for naming your repository, the 2nd step is to clone the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new with the following pieces of information added to the file:
 
 ```
 - name: jfrog
@@ -46,7 +46,7 @@ Namespaces and charts in ChartCenter are immutable. It is under the discretion o
 
 #### Official Namespaces
 
-We are reviewing the process to provide organizations official namespaces. The criteria is up for discussion on this [open issue here](#). 
+We are reviewing the process to provide organizations official namespaces. The criteria is up for discussion on this [open issue here](https://github.com/jfrog/chartcenter/issues/4). 
 
 ### Notes on Making a Pull Request
 
