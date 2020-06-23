@@ -25,9 +25,9 @@ ChartCenter includes all chart versions and application versions, which you can 
 
 ## Can I use ChartCenter for dependency charts?
 
-ChartCenter current can not be used for dependencies charts referencing. The limit is in the Helm client command helm package  doesn’t support an extra namespace the ChartCenter added. To fix it there are two options:
+ChartCenter currently can't be used for dependency chart referencing. The limit is in the Helm client. The command helm package doesn’t support an extra namespaces that ChartCenter added. To fix it there are two options:
 * Create a Helm plugin which then can be used for Helm v2 and v3 
-* Create a PR with a fix for the Helm v3 client only, as Helm v2 does not accept any new features anymore.
+* Create a PR with a fix for the Helm v3 client only, as Helm v2 is not accepting new features
 
 ## How can I get involved?
 We’ve got a number of open issues on the [public roadmap](https://github.com/jfrog/chartcenter/blob/master/docs/roadmap.md). Feel free to comment or email us at chartcenter@jfrog.com.
