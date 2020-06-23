@@ -13,6 +13,6 @@ Helm 3 is developing a set of best practices that help make Kubernetes applicati
 * Certificates, signatures, and verification
 * Secrets management best practices and more!
 
-**Sign up link to be posted next week**
+**[Sign up here](https://info.rancher.com/kubernetes-master-class-aug11-2020-jfrog)**
 
 More community events to be posted in a few weeks!
