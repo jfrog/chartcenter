@@ -32,7 +32,9 @@ Stay up to date by checking out our [latest release notes](https://github.com/jf
 
 # Adding New Helm Charts and Repositories to ChartCenter
 
-ChartCenter invites you to add your chart repositories by providing your source url and other information in our [repos.yaml](https://github.com/jfrog/chartcenter/blob/master/repos.yaml) file. Start by reading the [inclusion guide](https://github.com/jfrog/chartcenter/blob/master/docs/inclusion.md) and then [making a pull request to repos.yaml](#).
+ChartCenter invites you to add your chart repositories by providing your source url by making a pull request to our [repos.yaml](https://github.com/jfrog/chartcenter/blob/master/repos.yaml) file. 
+
+Start by reading the [inclusion guide](https://github.com/jfrog/chartcenter/blob/master/docs/inclusion.md).
 
 # Troubleshooting
 
