@@ -7,7 +7,7 @@
 
 JFrog ChartCenter is a free Helm chart central repository that was built to help the Helm community find immutable, secure, and reliable charts and have a single source of truth to proxy all the charts from one location. 
 
-In ChartCenter, every chart and version is cached and can be retrieved using
+In ChartCenter, every chart and version is cached and can be retrieved using:
 
 `helm repo add center https://repo.chartcenter.io` 
 
