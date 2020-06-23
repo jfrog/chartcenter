@@ -2,7 +2,7 @@
 
 ------
 
-# Add Charts to ChartCenter
+# Add Repositories to ChartCenter
 
 1. The first step in adding a chart to ChartCenter includes creating a repository following the **guidelines** outlined below.
 
