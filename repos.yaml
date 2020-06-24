@@ -12,6 +12,13 @@
 #
 
 repositories:
+  - name: kubernetes-ingress-nginx
+    type: helm
+    url: https://kubernetes.github.io/ingress-nginx
+    maintainers:
+      - name: Manuel Alejandro de Brito Fontes
+        email: aledbf@gmail.com
+      - name: ChiefAlexander
   - name: naseem-charts
     type: helm
     url: https://naseemkullah.github.io/naseem-charts
