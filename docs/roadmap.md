@@ -11,7 +11,7 @@ Currently, chart maintainers can provide mitigation notes for the vulnerabilitie
 [See Open Issue](https://github.com/jfrog/chartcenter/issues/2)
 
 ## Improved Inclusion Process
-The current inclusion process is done using a pull request process and can be found here. Our next goal is to provide maintainers the option of including repos from source -- allowing developers to push directly from their git repository straight into ChartCenter.
+The current inclusion process is done using a pull request process and can be found [here](https://github.com/jfrog/chartcenter/blob/master/docs/inclusion.md). Our next goal is to provide maintainers the option of including helm charts from source -- allowing developers to push directly from their git repository straight into ChartCenter.
 
 Issues that must be discussed include:
 * Versioning Considerations
