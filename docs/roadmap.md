@@ -18,11 +18,11 @@ Issues that must be discussed include:
 * Namespaces
 * Verification
 
-[See Open Issue](#)
+[See Open Issue](https://github.com/jfrog/chartcenter/issues/3)
 
 ## Namespaces
 
 Another consideration for inclusion and namespaces includes how we should prioritize namespace reservations and whether maintainers want a 2nd tier verification process to signify that a namespace is an official one from the organization. We would provide extra assurance that an organization repository is owned by the business and perhaps show an official icon signifying this to be the case. The process for 2nd Tier inclusion needs to be discussed.
 
-[See Open Issue](#)
+[See Open Issue](https://github.com/jfrog/chartcenter/issues/4)
 
