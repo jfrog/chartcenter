@@ -1,7 +1,7 @@
 # Release Notes
 
 ## 2020 June 24: GA
-Chartcenter.io goes live! Read our blog for more information.
+Chartcenter.io goes live! [Read our blog for more information](https://jfrog.com/blog/launching-jfrog-chartcenter-helm-chart-repository/).
 
 * Basic ability to search for charts
 * Basic ability to request new repos and charts be added
