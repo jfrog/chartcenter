@@ -6,7 +6,7 @@
 
 1. The first step in adding a chart to ChartCenter includes creating a repository following the **guidelines** outlined below.
 
-2. Once you have understood the guidelines for naming your repository, the 2nd step is to clone the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new with the following pieces of information added to the file:
+2. Once you have understood the guidelines for naming your repository, the 2nd step is to clone the [`repos.yaml`](https://github.com/jfrog/helmcenter/blob/master/repos.yaml) file and create a new pull request with the following pieces of information added to the file:
 
 ```
 - name: jfrog
