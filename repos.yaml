@@ -10,3 +10,12 @@
 #      - name: foo
 #        email: foo@example.com
 #
+
+repositories:
+  - name: kubernetes-ingress-nginx
+    type: helm
+    url: https://kubernetes.github.io/ingress-nginx
+    maintainers:
+      - name: Manuel Alejandro de Brito Fontes
+        email: aledbf@gmail.com
+      - name: ChiefAlexander
