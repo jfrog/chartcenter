@@ -19,3 +19,9 @@ repositories:
       - name: Manuel Alejandro de Brito Fontes
         email: aledbf@gmail.com
       - name: ChiefAlexander
+  - name: naseem-charts
+    type: helm
+    url: https://naseemkullah.github.io/naseem-charts
+    maintainers:
+      - name: naseemkullah
+        email: naseem@transit.app
