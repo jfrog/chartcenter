@@ -27,7 +27,7 @@ For issues, email us at chartcenter@jfrog.com with the subject [Add Repos to Cha
 
 Repositories added to CharttCenter should always follow Helm chart best practices. In addition to these practices we expect:
 
-* Every chart to have a maintainer listed along with valid contact information for each maintainer. 
+* Every chart to have a maintainer listed along with valid contact information for each maintainer
 * The contact information should be in the form of an email address that shows ownership of the domain
 * Charts must pass Helm lint, be installable and upgradable in all community supported versions of Kubernetes
 * Charts should use semantic versioning
