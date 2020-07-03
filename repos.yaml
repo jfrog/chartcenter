@@ -37,3 +37,9 @@ repositories:
     maintainers:
       - email: karolis@webhookrelay.com
         name: rusenask
+  - name: rimusz
+    type: helm
+    url: https://charts.rimusz.net
+    maintainers:
+      - email: rmocius@gmail.com
+        name: rimusz
