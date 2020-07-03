@@ -29,7 +29,7 @@ repositories:
     type: helm
     url: https://charts.keel.sh
     maintainers:
-      - email: karolis.rusenas@gmail.com
+      - email: karolis@webhookrelay.com
         name: rusenask
   - name: webhookrelay
     type: helm
