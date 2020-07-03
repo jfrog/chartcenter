@@ -25,3 +25,15 @@ repositories:
     maintainers:
       - name: naseemkullah
         email: naseem@transit.app
+  - name: keel
+    type: helm
+    url: https://charts.keel.sh
+    maintainers:
+      - email: karolis@webhookrelay.com
+        name: rusenask
+  - name: webhookrelay
+    type: helm
+    url: https://charts.webhookrelay.com
+    maintainers:
+      - email: karolis@webhookrelay.com
+        name: rusenask
