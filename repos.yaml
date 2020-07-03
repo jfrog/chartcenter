@@ -43,3 +43,9 @@ repositories:
     maintainers:
       - email: rmocius@gmail.com
         name: rimusz
+  - name: buildkite
+    type: helm
+    url: https://buildkite.github.io/charts
+    maintainers:
+      - email: rmocius@gmail.com
+        name: rimusz
