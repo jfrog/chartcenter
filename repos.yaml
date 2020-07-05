@@ -51,7 +51,7 @@ repositories:
         name: rimusz
   - name: rookout
     type: helm
-    url: https://github.com/rookout/helm-charts
+    url: https://helm-charts.rookout.com
     maintainers:
       - email: mickael@rookout.com
         name: Mickael Alliel
