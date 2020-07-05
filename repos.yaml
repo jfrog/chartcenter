@@ -49,3 +49,13 @@ repositories:
     maintainers:
       - email: rmocius@gmail.com
         name: rimusz
+  - name: rookout
+    type: helm
+    url: https://helm-charts.rookout.com
+    maintainers:
+      - email: mickael@rookout.com
+        name: Mickael Alliel
+      - email: gilad@rookout.com
+        name: Gilad Weiss
+      - email: ori.shoshan@rookout.com
+        name: Ori Shoshan
