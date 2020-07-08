@@ -70,3 +70,6 @@ repositories:
   - name: argo-helm
     type: helm
     url: https://argoproj.github.io/argo-helm
+    maintainers:
+      - email: scott@internaught.io
+        name: Scott Cabrinha
