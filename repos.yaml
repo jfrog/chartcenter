@@ -67,3 +67,6 @@ repositories:
         name: cert-manager project maintainers
       - email: james@munnelly.eu
         name: James Munnelly
+  - name: argo-helm
+    type: helm
+    url: https://argoproj.github.io/argo-helm
