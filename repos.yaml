@@ -59,3 +59,11 @@ repositories:
         name: Gilad Weiss
       - email: ori.shoshan@rookout.com
         name: Ori Shoshan
+  - name: jetstack
+    type: helm
+    url: https://charts.jetstack.io/
+    maintainers:
+      - email: cert-manager-maintainers@jetstack.io
+        name: cert-manager project maintainers
+      - email: james@munnelly.eu
+        name: James Munnelly
