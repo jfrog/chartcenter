@@ -67,3 +67,11 @@ repositories:
         name: cert-manager project maintainers
       - email: james@munnelly.eu
         name: James Munnelly
+  - name: litmuschaos
+    type: helm
+    url: https://litmuschaos.github.io/litmus-helm/
+    maintainers:
+      - email: karthik.s@mayadata.io
+        name: Karthik S
+      - email: jasssstkn@yahoo.com
+        name: Maria Kotlyarevskaya
