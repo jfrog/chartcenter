@@ -75,3 +75,9 @@ repositories:
         name: Karthik S
       - email: jasssstkn@yahoo.com
         name: Maria Kotlyarevskaya
+  - name: odavid
+    type: helm
+    url: https://odavid.github.io/k8s-helm-charts/
+    maintainers:
+      - email: ohad.david@gmail.com
+        name: Ohad David
