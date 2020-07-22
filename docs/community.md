@@ -17,4 +17,5 @@ Helm 3 is developing a set of best practices that help make Kubernetes applicati
 
 **[Sign up here](https://info.rancher.com/kubernetes-master-class-aug11-2020-jfrog)**
 
-More community events to be posted soon!
+Watch the video here:
+https://www.youtube.com/watch?v=KlNjx1hk5UE&feature=emb_title
