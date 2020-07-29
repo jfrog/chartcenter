@@ -65,9 +65,10 @@ The JFrog ChartCenter [Privacy Policy](https://chartcenter.io/privacypolicy).
 
 # Contact Us
 
-* Twitter: tweet at us @chartcenter.io
-* Slack: Find us in #ChartCenter channel in the Kubernetes Slack
+* Twitter: tweet at us [@chartcenterio](https://twitter.com/chartcenterio)
+* Slack: Find us in #ChartCenter channel in the [Kubernetes Slack](https://kubernetes.slack.com/)
 * Email: chartcenter@jfrog.com
+
 
 
 
