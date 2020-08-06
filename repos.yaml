@@ -71,10 +71,8 @@ repositories:
     type: helm
     url: https://argoproj.github.io/argo-helm
     maintainers:
-    - name: alexec
-    - name: alexmt
-    - name: benjaminws
-    - name: jessesuen
+    - email: amatyushentsev@gmail.com
+      name: alexmt
   - name: litmuschaos
     type: helm
     url: https://litmuschaos.github.io/litmus-helm/
