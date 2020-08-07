@@ -87,3 +87,9 @@ repositories:
     maintainers:
       - name: Vertigo
         email: devops@vertigo.com.br
+  - name: flagger
+    type: helm
+    url: https://flagger.app
+    maintainers:
+      - name: Stefan Prodan
+        email: stefan.prodan@gmail.com
