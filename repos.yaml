@@ -93,3 +93,9 @@ repositories:
     maintainers:
       - name: Stefan Prodan
         email: stefan.prodan@gmail.com
+  - name: fluxcd
+    type: helm
+    url: https://charts.fluxcd.io
+    maintainers:
+      - name: Stefan Prodan
+        email: stefan.prodan@gmail.com
