@@ -67,6 +67,12 @@ repositories:
         name: cert-manager project maintainers
       - email: james@munnelly.eu
         name: James Munnelly
+  - name: argo
+    type: helm
+    url: https://argoproj.github.io/argo-helm
+    maintainers:
+      - email: amatyushentsev@gmail.com
+        name: alexmt
   - name: litmuschaos
     type: helm
     url: https://litmuschaos.github.io/litmus-helm/
