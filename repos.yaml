@@ -105,3 +105,13 @@ repositories:
     maintainers:
       - name: Stefan Prodan
         email: stefan.prodan@gmail.com
+  - name: rook
+    type: helm
+    url: https://charts.rook.io/stable/
+    maintainers:
+      - name: Travis Nielsen
+        email: tnielsen@redhat.com
+      - name: Alexander Trost
+        email: galexrt@googlemail.com
+      - name: Jared Watts
+        email: jbw976@gmail.com
