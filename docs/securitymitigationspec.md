@@ -53,23 +53,19 @@ Example 1: Ability for producers to provide overall and/or CVE specific mitigati
 
 ```
 schemaVersion: v1
-summary: This chart is secure
-securityAdvisoryUrl:
-mitigationExternalFileUrl:
-mitigations:   
-    cves: 
-        CVE-1234
-        CVE-5432
-    affectedPackageUri: 
-    affectedVersions: > 1.2.x || < 2.5.8
-    description: This security mitigation information for CVE-1234 & CVE-5432 applies to the specified affectedVersions of charts.
-    cves: 
-        CVE-3456
-    affectedPackageUri: 
-    affectedVersions: 6.x || 7.x
-    description: This security mitigation information for CVE-3456 applies to application versions spe & CVE-5432 applies to the specified affectedVersions of the application.
+summary: Security mitigation information for this application is tracked by the security-mitigation.yaml file that's part of this helm chart.
+mitigations:
+  - cves:
+      - CVE-2019-1010022
+    affectedPackageUri: helm://rimusz/security-sample-chart
+    affectedVersions: <= 0.1.5
+    description: This security mitigation information for CVE-2019-10100 applies to the specified affectedVersions of charts.
+  - cves:
+      - CVE-2019-11888
+    affectedPackageUri: docker://docker.io/rimusz/security-sample-app
+    affectedVersions: <= 0.1.1
+    description: This CVE is applicable for applications running on Windows. This application currently doesn't support Windows OS, hence this CVE does not impact our users.
 ```
-
 
 Example 2: Ability for producers point security mitigation information that is hosted externally on wiki / webpage.
 
