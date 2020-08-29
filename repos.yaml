@@ -115,3 +115,13 @@ repositories:
         email: galexrt@googlemail.com
       - name: Jared Watts
         email: jbw976@gmail.com
+  - name: k8s-at-home
+    type: helm
+    url: https://k8s-at-home.com/charts/
+    maintainers:
+      - name: Jeff Billimek
+        email: jeff@billimek.com
+      - name: Ryan Holt
+        email: ryan@ryanholt.net
+      - name: Devin Buhl
+        email: devin.kray@gmail.com
