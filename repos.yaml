@@ -125,3 +125,9 @@ repositories:
         email: ryan@ryanholt.net
       - name: Devin Buhl
         email: devin.kray@gmail.com
+  - name: gkarthiks
+    type: helm
+    url: https://gkarthiks.github.io/helm-charts
+    maintainers:
+      - name: Karthikeyan Govindaraj
+        email: github.gkarthiks@gmail.com
