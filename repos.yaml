@@ -131,3 +131,9 @@ repositories:
     maintainers:
       - name: Karthikeyan Govindaraj
         email: github.gkarthiks@gmail.com
+  - name: cmak-operator
+    type: helm
+    url: https://eshepelyuk.github.io/cmak-operator
+    maintainers:
+      - name: Ievgenii Shepeliuk
+        email: eshepelyuk@gmail.com
