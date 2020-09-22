@@ -45,7 +45,7 @@ Here are the fields:
 | mitigationExternalFileUrl | If useMitigationExternalFile is set to true, then this parameter points to a url of externally hosted security-mitigation.yaml | url | 
 | mitigations: cves | List of CVEs for which mitigation notes are being provided. | CVE-YYYY-NNNN | 
 | mitigations: cves: affectedPackageUri | Indicates package Uri for which the security mitigation is provided. Currently we support only two package uri: Docker docker://docker.io/bitnami/postgres Helm helm://artifactory | uri | 
-| mitigations: cves: affectedVersions | SemVer Constraint from Masterminds/semver as used on Chart.yaml for kubeVersion specifying which versions should use the mitigation information. | Example: > 1.2.x || < 2.5.8 | 
+| mitigations: cves: affectedVersions | SemVer Constraint from Masterminds/semver as used on Chart.yaml for kubeVersion specifying which versions should use the mitigation information. | Example: "> 1.2.x || < 2.5.8" | 
 | mitigations: cves: description | Mitigation notes at CVE level. | text description | 
 
 ## Examples
@@ -58,12 +58,12 @@ mitigations:
   - cves:
       - CVE-2019-1010022
     affectedPackageUri: helm://rimusz/security-sample-chart
-    affectedVersions: <= 0.1.5
+    affectedVersions: "<= 0.1.5"
     description: This security mitigation information for CVE-2019-10100 applies to the specified affectedVersions of charts.
   - cves:
       - CVE-2019-11888
     affectedPackageUri: docker://docker.io/rimusz/security-sample-app
-    affectedVersions: <= 0.1.1
+    affectedVersions: "<= 0.1.1"
     description: This CVE is applicable for applications running on Windows. This application currently doesn't support Windows OS, hence this CVE does not impact our users.
 ```
 
