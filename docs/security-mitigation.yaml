@@ -21,6 +21,6 @@ mitigations:
     ## Indicates package Uri for which the security mitigation is provided. helm://… || docker://… 
     affectedPackageUri:
     ## Which chart versions this cve note belongs to
-    affectedVersions: mastermind SemVer constraint
+    affectedVersions: quoted mastermind SemVer constraint
     ## Description / note
     description: text
