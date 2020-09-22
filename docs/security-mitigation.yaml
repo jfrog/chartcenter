@@ -16,10 +16,11 @@ mitigationExternalFileUrl: URL
 
 ## Mitigation notes for individual CVEs
 mitigations:   
-  cves: 
-## Indicates package Uri for which the security mitigation is provided. helm://… || docker://… 
-  affectedPackageUri:
-## Which chart versions this cve note belongs to
-  affectedVersions: mastermind SemVer constraint
-## Description / note
-  description: text
+  - cves:
+      - CVE-0000-00000
+    ## Indicates package Uri for which the security mitigation is provided. helm://… || docker://… 
+    affectedPackageUri:
+    ## Which chart versions this cve note belongs to
+    affectedVersions: mastermind SemVer constraint
+    ## Description / note
+    description: text
