@@ -137,3 +137,13 @@ repositories:
     maintainers:
       - name: Ievgenii Shepeliuk
         email: eshepelyuk@gmail.com
+  - name: scm-manager
+    type: helm
+    url: https://packages.scm-manager.org/repository/helm-v2-releases/
+    maintainers:
+      - name: Sebastian Sdorra
+        email: sebastian.sdorra@cloudogu.com
+      - name: René Pfeuffer
+        email: rene.pfeuffer@cloudogu.com
+      - name: Eduard Heimbuch
+        email: eduard.heimbuch@cloudogu.com 
