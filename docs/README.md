@@ -35,6 +35,10 @@ ChartCenter invites you to add your chart repositories by providing your source 
 
 Start by reading the [inclusion guide](https://github.com/jfrog/chartcenter/blob/master/docs/inclusion.md).
 
+## ChartCenter began by including all charts from HelmHub's repos.yaml file
+
+We were happy to work with the community to improve the stability of helm charts by imcluding all open source charts in our central reposistory. Our goal and intention is to provide true immutability for all publically available helm charts and provide as much metadata as possible to show where each chart came from and which versions are best to use. Should you have questions, please email us: chartcenter@jfrog.com
+
 # Troubleshooting
 
 If you’re having any trouble with ChartCenter, you can first check our [FAQ](faq.md) which may answer questions on how our features work, how to find new charts on ChartCenter, and how you can add your own using a pull request. 
