@@ -34,6 +34,10 @@ To use ChartCenter for dependency chart referencing the [chartcenter-plugin](htt
 
 There is a limit in the Helm client, the `helm package` doesn’t support an extra namespaces that ChartCenter added. To fix that an [upstream issue](https://github.com/helm/helm/issues/8537) has been opened for Helm v3 but after a while it was closed by Helm mainteiners.
 
+## Can charts be removed?
+
+We believe that immutability is the primary goal of ChartCenter and providing this stability is really important for the Helm community, but if you are the author of an open source Helm chart and would like to request a chart be removed, please reach out to us: chartcenter@jfrog.com.
+
 ## How can I get involved?
 
 We’ve got a number of open issues on the [public roadmap](https://github.com/jfrog/chartcenter/blob/master/docs/roadmap.md). Feel free to comment or email us at chartcenter@jfrog.com.
