@@ -36,7 +36,7 @@ There is a limit in the Helm client, the `helm package` doesn’t support an ext
 
 ## Can charts be removed?
 
-We believe that immutability is the primary goal of ChartCenter and providing this stability is really important for the Helm community, but if you are the author of an open source Helm chart and would like to request a chart be removed, please reach out to us: chartcenter@jfrog.com.
+We believe that immutability is the primary goal of ChartCenter and providing this stability is really important for the Helm community, but if you are the author of an open source Helm chart and would like to request a chart be removed, please reach out to us: chartcenter@jfrog.com. For excluded repositories, chartcenter will just forward the request to the original source.
 
 ## How can I get involved?
 
