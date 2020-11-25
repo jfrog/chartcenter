@@ -37,7 +37,7 @@ Start by reading the [inclusion guide](https://github.com/jfrog/chartcenter/blob
 
 ## ChartCenter began by including all charts from HelmHub's repos.yaml file
 
-We were happy to work with the community to improve the stability of Helm charts by including all open source charts in our central repository and aid the community's need for stability. Our goal and intention is to provie true immutability for all publically available charts and provide as much metadata as possible to show where each chart came from and which versions are best to use. Should you have questions, please email us: chartcenter@jfrog.com.
+We were happy to work with the community to improve the stability of Helm charts by including all open source charts in our central repository and aid the community's need for stability. You can view all the charts included from the original HelmHub in our [helm-hub-repos.yaml](https://github.com/jfrog/chartcenter/blob/master/helm-hub-repos.yaml) file. Our goal and intention is to provie true immutability for all publically available charts and provide as much metadata as possible to show where each chart came from and which versions are best to use. Should you have questions, please email us: chartcenter@jfrog.com.
 
 # Troubleshooting
 
