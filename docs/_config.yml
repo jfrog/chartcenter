@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 repository: jfrog/chartcenter
-destination: ./_site/docs
+# destination: ./_site/docs
 baseurl: /docs
