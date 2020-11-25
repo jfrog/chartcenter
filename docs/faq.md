@@ -16,6 +16,10 @@ First, you'll need to make sure you have downloaded [Helm](https://helm.sh/docs/
 Next, you'll want to configure ChartCenter using the command `helm repo add center https://repo.chartcenter.io`.
 Now, once you have found the chart you want to use - you can use the command helm install [ PATH ]. For example, to install the artifactory chart you use `helm install center/jfrog/artifactory`.
 
+## What charts does ChartCenter have?
+
+ChartCenter was populated by using the existing charts that HelmHub. Those charts are still availabe on ChartCenter, and you can see a list here: [helmhub repo](https://github.com/jfrog/chartcenter/blob/master/helm-hub-repos.yaml). Additionally, all new repos and charts are being added by chart authors for inclusion to ChartCenter. You can view all of those charts on the [repos.yaml file](https://github.com/jfrog/chartcenter/blob/master/repos.yaml).
+
 ## How do I activate my email for mitigation notes?
 
 First, go to the ChartCenter security tab for your chart and click on **Are you a chart maintainer?** on the top-left. This will open up a box that allows you to provide your email. As long as your email address is associated with the chart, your email will be activated and you can provide us mitigation notes using the [security specifications.(securitymigitationspec.md)
