@@ -11,4 +11,3 @@ RUN bundle exec jekyll build
 # static html hosting using nginx
 FROM nginx:1.17.6
 COPY --from=builder /usr/helm/docs/_site /usr/share/nginx/html
-
