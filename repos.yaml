@@ -149,7 +149,7 @@ repositories:
         email: eduard.heimbuch@cloudogu.com 
   - name: stakater
     type: helm
-    url: stakater.github.io/stakater-charts/
+    url: https://stakater.github.io/stakater-charts/
     maintainers:
       - name: stakater
         email: hello@stakater.com
