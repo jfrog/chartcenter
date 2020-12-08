@@ -1,4 +1,4 @@
-# How It Works
+# Add a New Chart - How It Works
 
 While Helm repositories allow you to store and pull versioned Helm charts and share them with the community, one problem with hosting repositories is all the management that you have to take care of just to host a single chart. You have to worry about:
 * helm dependencies updates
@@ -43,5 +43,5 @@ ChartCenter’s goal is to help improve standards around security and reliabilit
 
 Should you want to opt-out of having your chart signed using this method, you can use the checkbox to opt-out during the source inclusion process, but for security, your chart will not be added to Chartcenter.
 
-Should you have any questions, please email: chartcenter@jfrog.com
+Should you have any questions, please email: chartcenter@jfrog.com.
 
