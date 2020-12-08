@@ -5,7 +5,7 @@ While Helm repositories allow you to store and pull versioned Helm charts and sh
 * helm package updates
 * Upload to Github pages, S3 bucket, etc...
 
-### Why would you create and run your own chart repository when we can do it for you?
+### Why would you create and run your own chart repository when we can do it for you from source?
 
 ChartCenter now has a source inclusion feature that allows you to include any git-based Helm chart directly. ChartCenter will host your repository and assign you a namespace based on your git repo name. 
 
