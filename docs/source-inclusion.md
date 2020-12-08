@@ -1,3 +1,7 @@
+[__Welcome__](README.md) | [__FAQ__](faq.md) | [__Inclusion Process__](inclusion.md) | [__Roadmap__](roadmap.md) | [__Security Tab__](security.md) | [__Mitigation Notes__](securitymitigationspec.md) | [__JFrog Container Registry__](jfrog-cr.md) | [__Source__](source-inclusion.md)
+
+------
+
 # Add a New Chart - How It Works
 
 While Helm repositories allow you to store and pull versioned Helm charts and share them with the community, one problem with hosting repositories is all the management that you have to take care of just to host a single chart. You have to worry about:
