@@ -45,7 +45,7 @@ Chart git releases have to have SemVer based git tags:
 
 ![Tags](https://github.com/jfrog/chartcenter/blob/master/docs/img/tag2.png)
 
-**Note**: the git release file might have other charts, which aren’t part of inclusion so these charts will be safely ignored and only charts which were added to ChartCenter via inclusion from source process will be processed.*
+**Note**: the git release file might have other charts, which aren’t part of inclusion so these charts will be safely ignored and only charts which were added to ChartCenter via inclusion from source process will be processed.
 
 # Terms
 
