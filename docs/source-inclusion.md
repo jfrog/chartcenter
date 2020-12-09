@@ -31,11 +31,11 @@ That status page will let you know if your inclusion request is in queue to star
 
 # Namespace Reservation
 
-As a source git repository, ChartCenter currently supports Github, Gitlab and Bitbucket. The main domain associated with these repositories will form the namespace for your charts that are included using this feature. For example:
+When ChartCenter hosts your Helm chart from source, it creates a namespace from the main domain of your Git repository with a prefix for the type of source control that was used:
 
-* Github will be made `gh-` as a prefix to your account name there. Example: `gh-rimusz-lab`
-* GItlab will be `gl-` prefix
-* Bitbucket will be `bb-` prefix
+* **gh-** For Github (for example gh-rimusz-lab).
+* **gl-** For Gitlab
+* **bb-** For Bitbucket
 
 # How To Tag Releases
 
