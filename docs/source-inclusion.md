@@ -19,6 +19,12 @@ Provide us the url of your repository, your maintainer information, and the path
 
 ![Adding Charts](https://github.com/jfrog/chartcenter/blob/master/docs/img/addchart.png)
 
+* **Repository URL** - the full URL path to your Git repository
+* **Chart maintainer email** - This is required, and must match your email in the chart’s Chart.yaml file.
+* **Path to location of Chart.yaml** - The path in the git repository where your chart is stored.
+
+**Note**: You can add only one chart at a time from the same Git repository.
+
 Once you agree to the terms (outlined below) and you submit the inclusion request, you will receive an email to confirm that you did in fact make the request. Once you confirm that email with us - ChartCenter will provide you a link back to the center that will show you the status of your request. 
 
 That status page will let you know if your inclusion request is in queue to start, is already being processed, or if we ran into an error. Once your chart inclusion request has been fully processed, that status page will confirm that your chart is ready. Then - all you have to do is search for the chart using the search bar and you’ll see all the data populated on ChartCenter! Congrats! 
@@ -39,7 +45,7 @@ Chart git releases have to have SemVer based git tags:
 
 ![Tags](https://github.com/jfrog/chartcenter/blob/master/docs/img/tag2.png)
 
-*Note: the git release file might have other charts, which aren’t part of inclusion so these charts will be safely ignored and only charts which were added to ChartCenter via inclusion from source process will be processed.*
+**Note**: the git release file might have other charts, which aren’t part of inclusion so these charts will be safely ignored and only charts which were added to ChartCenter via inclusion from source process will be processed.*
 
 # Terms
 
