@@ -17,7 +17,7 @@ When you make an inclusion request and add a new chart, there are 3 key pieces o
 
 Provide us the url of your repository, your maintainer information, and the path to the chart.yaml file (we use the chart.yaml to fill out the chart details.
 
-![Adding Charts](https://github.com/jfrog/chartcenter/blob/master/docs/img/addchart.png)
+![Adding Charts](https://github.com/jfrog/chartcenter/blob/master/docs/img/addchart.png?raw=true)
 
 * **Repository URL** - the full URL path to your Git repository
 * **Chart maintainer email** - This is required, and must match your email in the chart’s Chart.yaml file.
@@ -43,7 +43,7 @@ Chart git releases have to have SemVer based git tags:
 * v0.0.1-chart-name
 * 0.0.1-chart-name
 
-![Tags](https://github.com/jfrog/chartcenter/blob/master/docs/img/tag2.png)
+![Tags](https://github.com/jfrog/chartcenter/blob/master/docs/img/tag2.png?raw=true)
 
 **Note**: the git release file might have other charts, which aren’t part of inclusion so these charts will be safely ignored and only charts which were added to ChartCenter via inclusion from source process will be processed.
 
