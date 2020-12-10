@@ -39,7 +39,7 @@ When ChartCenter hosts your Helm chart from source, it creates a namespace from 
 
 # How To Tag Releases
 
-Chart git releases have to have SemVer based git tags:
+Chart git release tag must be compliant with [semantic versioning](https://semver.org/) and include the chart name:
 * v0.0.1-chart-name
 * 0.0.1-chart-name
 
