@@ -1,4 +1,4 @@
-[__Welcome__](README.md) | [__FAQ__](faq.md) | [__Inclusion Process__](inclusion.md) | [__Public Roadmap__](roadmap.md) | [__Security Tab__](security.md) | [__Mitigation Notes__](securitymitigationspec.md) | [__JFrog Container Registry__](jfrog-cr.md)
+[__Welcome__](README.md) | [__FAQ__](faq.md) | [__Inclusion Process__](inclusion.md) | [__Roadmap__](roadmap.md) | [__Security Tab__](security.md) | [__Mitigation Notes__](securitymitigationspec.md) | [__JFrog Container Registry__](jfrog-cr.md) | [__Inclusion from Source__](source-inclusion.md)
 
 ------
 
@@ -15,6 +15,10 @@ Start by reading the [inclusion guide](inclusion.md) and then making a pull requ
 First, you'll need to make sure you have downloaded [Helm](https://helm.sh/docs/intro/install/).
 Next, you'll want to configure ChartCenter using the command `helm repo add center https://repo.chartcenter.io`.
 Now, once you have found the chart you want to use - you can use the command helm install [ PATH ]. For example, to install the artifactory chart you use `helm install center/jfrog/artifactory`.
+
+## What charts does ChartCenter have?
+
+ChartCenter was populated by using the existing charts that HelmHub. Those charts are still availabe on ChartCenter, and you can see a list here: [helmhub repo](https://github.com/jfrog/chartcenter/blob/master/helm-hub-repos.yaml). Additionally, all new repos and charts are being added by chart authors for inclusion to ChartCenter. You can view all of those charts on the [repos.yaml file](https://github.com/jfrog/chartcenter/blob/master/repos.yaml).
 
 ## How do I activate my email for mitigation notes?
 

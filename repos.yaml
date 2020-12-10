@@ -147,3 +147,15 @@ repositories:
         email: rene.pfeuffer@cloudogu.com
       - name: Eduard Heimbuch
         email: eduard.heimbuch@cloudogu.com 
+  - name: stakater
+    type: helm
+    url: https://stakater.github.io/stakater-charts/
+    maintainers:
+      - name: stakater
+        email: hello@stakater.com
+      - name: Waleed Malik
+        email: waleed@stakater.com
+      - name: Ali Kahoot
+        email: ali.kahoot@stakater.com
+      - name: Usama Ahmad
+        email: usama@stakater.com
