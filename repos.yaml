@@ -146,7 +146,7 @@ repositories:
       - name: René Pfeuffer
         email: rene.pfeuffer@cloudogu.com
       - name: Eduard Heimbuch
-        email: eduard.heimbuch@cloudogu.com 
+        email: eduard.heimbuch@cloudogu.com
   - name: stakater
     type: helm
     url: https://stakater.github.io/stakater-charts/
@@ -159,3 +159,15 @@ repositories:
         email: ali.kahoot@stakater.com
       - name: Usama Ahmad
         email: usama@stakater.com
+  - name: vector
+    type: helm
+    url: https://packages.timber.io/helm/latest
+    maintainers:
+      - name: Vector Maintainers
+        email: vector@timber.io
+  - name: vector-nightly
+    type: helm
+    url: https://packages.timber.io/helm/nightly
+    maintainers:
+      - name: Vector Maintainers
+        email: vector@timber.io
