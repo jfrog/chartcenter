@@ -12,6 +12,12 @@
 #
 
 repositories:
+  - name: splunk-connect-for-kubernetes
+    type: helm
+    url: https://splunk.github.io/splunk-connect-for-kubernetes
+    maintainers:
+      - name: Splunk Inc.
+        email: DataEdge@splunk.com
   - name: kubernetes-ingress-nginx
     type: helm
     url: https://kubernetes.github.io/ingress-nginx
