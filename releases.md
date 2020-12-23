@@ -1,12 +1,18 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 Dec 23: Backend Changes](#2020-dec-23-backend-changes)
 - [2020 Dec 15: Inclusion from Source](#2020-dec-15-inclusion-from-source)
 - [2020 Oct 21: UI Metadata Improvements](#2020-oct-21-ui-metadata-improvements)
 - [2020 July 27: Fixes and Install Instructions](#2020-july-27-fixes-and-install-instructions)
 - [2020 June 24: GA](#2020-june-24-ga)
 
 <!-- /MarkdownTOC -->
+## 2020 Dec 23: Backend Changes
+A new version of ChartCenter was released to production. Here's the list of issues resolved:
+* Enable High CVE Count (Backend only)
+*  Usage of a common library in router that will be reused in all centers going forward. This change encourages reusability across the board instead of duplicating the code in multiple centers.
+
 ## 2020 Dec 15: Inclusion from Source
 A few days ago we released an enhanced inclusion feature in ChartCenter along with a few bug fixes. Enhanced Inclusion is a very important feature for the community since it removes friction and let developers focus on only building charts instead of figuring out the details of hosting and managing Helm repositories. Here are the list of items that got released:
 * Enhanced Inclusion: [Read blog](https://jfrog.com/blog/host-your-helm-chart-in-chartcenter-directly-from-source/)
