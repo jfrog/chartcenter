@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2021 Jan 8: Inclusion with Dependencies](#2021-jan-8-inclusion-with-dependencies)
 - [2020 Dec 23: Backend Changes](#2020-dec-23-backend-changes)
 - [2020 Dec 15: Inclusion from Source](#2020-dec-15-inclusion-from-source)
 - [2020 Oct 21: UI Metadata Improvements](#2020-oct-21-ui-metadata-improvements)
@@ -8,6 +9,12 @@
 - [2020 June 24: GA](#2020-june-24-ga)
 
 <!-- /MarkdownTOC -->
+## 2021 Jan 8: Inclusion with Dependencies
+A new version of ChartCenter was deployed to production. This version supports inclusion from source for charts with dependencies. Details below:
+* Support charts resolving dependencies from ChartCenter
+* Improve inclusion from source chart processing
+* Add ability to install charts resolving dependencies from chartcenter
+
 ## 2020 Dec 23: Backend Changes
 A new version of ChartCenter was released to production. Here's the list of issues resolved:
 * Enable High CVE Count (Backend only)
