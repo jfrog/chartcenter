@@ -1,6 +1,6 @@
 [__Welcome__](README.md) | [__FAQ__](faq.md) | [__Add Repo__](inclusion.md) | [__Add Chart__](source-inclusion.md) | [__Roadmap__](roadmap.md) | [__Security Tab__](security.md) | [__Mitigation Notes__](securitymitigationspec.md) | [__JFrog Container Registry__](jfrog-cr.md) 
 
-# # Attention: Deprecation notice for Bintray, GoCenter, ChartCenter and JCenter. [Learn More](#)
+# Attention: Deprecation notice for Bintray, GoCenter, ChartCenter and JCenter. [Learn More](#)
 
 ------
 
